@@ -1,4 +1,4 @@
-Harrison Smells
+Harrison Smells -- Fuck you Conner
 
 cd (where ever your Shine Game Folder is)
 
