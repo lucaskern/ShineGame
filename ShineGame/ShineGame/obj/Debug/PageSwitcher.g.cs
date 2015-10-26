@@ -50,7 +50,7 @@ namespace WPFPageSwitch {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/JagoanFisika;component/pageswitcher.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/ShineGame;component/pageswitcher.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\PageSwitcher.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

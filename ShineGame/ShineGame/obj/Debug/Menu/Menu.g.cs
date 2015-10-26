@@ -50,7 +50,7 @@ namespace WPFPageSwitch.Menu {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/JagoanFisika;component/menu/menu.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/ShineGame;component/menu/menu.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\Menu\Menu.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

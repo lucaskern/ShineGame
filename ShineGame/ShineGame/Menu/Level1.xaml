@@ -34,15 +34,15 @@
     </UserControl.Resources>
     
     <Grid Background="#FFA2D1FF">
-        <Image Source="/JagoanFisika;component/sky.jpg" Stretch="Fill"/>
-        <Image Margin="0,-12,0,0" Source="/JagoanFisika;component/mountains.png" Stretch="Fill"/>
+        <Image Source="/sky.jpg" Stretch="Fill"/>
+        <Image Margin="0,-12,0,0" Source="/mountains.png" Stretch="Fill"/>
         <Button Style="{StaticResource MyButtonStyle}" Margin="571.211,504.596,101.044,0" Click="Button_Click">
             <Button.Background>
                 <ImageBrush ImageSource="../treasure.png"/>
             </Button.Background>
         </Button>
-        <Image Margin="508,212.508,0,0" x:Name="mid" Source="/JagoanFisika;component/castle.png" Stretch="Fill"/>
-        <Image Margin="0,458.6,0,0" x:Name="front" Source="/JagoanFisika;component/forest.png" Stretch="Fill"/>
+        <Image Margin="508,212.508,0,0" x:Name="mid" Source="/castle.png" Stretch="Fill"/>
+        <Image Margin="0,458.6,0,0" x:Name="front" Source="/forest.png" Stretch="Fill"/>
         <Button Content="Forward" x:Name="Forward" HorizontalAlignment="Left" Margin="637.6,24.4,0,0" VerticalAlignment="Top" Width="137.55" Height="35.213" FontSize="24" Click="Forward_Click"/>
         <Button Content="Backward" x:Name="Back" HorizontalAlignment="Left" Margin="472,24.4,0,0" VerticalAlignment="Top" Width="137.55" Height="35.213" RenderTransformOrigin="0.477,0.452" FontSize="24" Click="Back_Click"/>
         <Button Content="View Riddle" HorizontalAlignment="Left" Margin="10,9.85,0,0" VerticalAlignment="Top" Width="116.321" Height="49.763" FontWeight="Bold" FontSize="14" Click="Button_Click_1"/>

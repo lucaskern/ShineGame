@@ -50,7 +50,7 @@ namespace WPFPageSwitch.Menu {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/JagoanFisika;component/menu/l1riddle.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/ShineGame;component/menu/l1riddle.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\Menu\L1Riddle.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
