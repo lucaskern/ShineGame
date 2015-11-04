@@ -23,3 +23,5 @@ C:\Users\harrk_000\Documents\IGME 201\ControlsBasics-WPF\obj\Debug\Microsoft.Sam
 C:\Users\harrk_000\Documents\IGME 201\ControlsBasics-WPF\obj\Debug\ControlsBasics-WPF.csproj.GenerateResource.Cache
 C:\Users\harrk_000\Documents\IGME 201\ControlsBasics-WPF\obj\Debug\ControlsBasics-WPF.exe
 C:\Users\harrk_000\Documents\IGME 201\ControlsBasics-WPF\obj\Debug\ControlsBasics-WPF.pdb
+C:\Users\harrk_000\Documents\GitHub\ShineGame\kinectAssets\ControlsBasics-WPF\obj\Debug\ControlsBasics-WPF.exe
+C:\Users\harrk_000\Documents\GitHub\ShineGame\kinectAssets\ControlsBasics-WPF\obj\Debug\ControlsBasics-WPF.pdb
