@@ -7,7 +7,7 @@
              d:DesignHeight="600" d:DesignWidth="800">
     <Grid Background="#FF0F0F0F">
         <TextBlock HorizontalAlignment="Left" Margin="169.5,10,0,0" TextWrapping="Wrap" Text="Solve The Riddle" VerticalAlignment="Top" Foreground="White" FontSize="72" FontWeight="Bold" FontFamily="MeathFLF"/>
-        <TextBlock HorizontalAlignment="Left" Margin="97.6,277.6,0,0" TextWrapping="Wrap" Text="Its treasure yo" VerticalAlignment="Top" Foreground="White" FontSize="72" FontWeight="Bold" FontFamily="Lemon/Milk" Width="692.4"/>
+        <TextBlock HorizontalAlignment="Left" Margin="65.361,276.406,0,0" TextWrapping="Wrap" Text="Dragons horde it" VerticalAlignment="Top" Foreground="White" FontSize="72" FontWeight="Bold" FontFamily="Lemon/Milk" Width="692.4" TextAlignment="Center"/>
 
     </Grid>
 </UserControl>

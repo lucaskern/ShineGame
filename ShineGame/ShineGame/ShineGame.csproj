@@ -74,6 +74,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Menu\L2Riddle.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Menu\Level1.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -105,6 +109,9 @@
     </Compile>
     <Compile Include="Menu\L1Riddle.xaml.cs">
       <DependentUpon>L1Riddle.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Menu\L2Riddle.xaml.cs">
+      <DependentUpon>L2Riddle.xaml</DependentUpon>
     </Compile>
     <Compile Include="Menu\Level1.xaml.cs">
       <DependentUpon>Level1.xaml</DependentUpon>
@@ -153,6 +160,9 @@
     <Folder Include="Assets\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="desk.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="sky.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

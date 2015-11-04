@@ -11,23 +11,30 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Windows.Threading;
 
 namespace WPFPageSwitch.Menu
 {
     /// <summary>
-    /// Interaction logic for intro.xaml
+    /// Interaction logic for L2Riddle.xaml
     /// </summary>
-    public partial class intro : UserControl
+    public partial class L2Riddle : UserControl
     {
-        public intro()
+        DispatcherTimer t1 = new DispatcherTimer();
+
+        public L2Riddle()
         {
-            InitializeComponent();
+            t1.Interval = TimeSpan.FromSeconds(3);
+            t1.Tick += Timer_Tick;
+            t1.Start();
+
+            this.InitializeComponent();
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        public void Timer_Tick(object sender, EventArgs e)
         {
-            MessageBox.Show("You solved the riddle!");
-            Switcher.Switch(new Menu());
+            Switcher.Switch(new intro());
+            t1.Stop();
         }
     }
 }

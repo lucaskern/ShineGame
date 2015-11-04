@@ -34,5 +34,10 @@ namespace WPFPageSwitch.Menu
         {
             Switcher.Switch(new L1Riddle());
         }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            Switcher.Switch(new L2Riddle());
+        }
     }
 }

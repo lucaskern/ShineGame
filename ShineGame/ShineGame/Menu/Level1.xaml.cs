@@ -67,7 +67,7 @@ namespace WPFPageSwitch.Menu
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             MessageBox.Show("You Beat Level 1!");
-            Switcher.Switch(new Menu());
+            Switcher.Switch(new L2Riddle());
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
