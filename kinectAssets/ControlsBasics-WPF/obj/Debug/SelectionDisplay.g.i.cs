@@ -9,7 +9,6 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Microsoft.Samples.Kinect.ControlsBasics;
 using System;
 using System.Diagnostics;
 using System.Windows;
