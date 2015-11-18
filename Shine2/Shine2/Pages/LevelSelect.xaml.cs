@@ -16,14 +16,14 @@ using Shine2.Pages.Levels;
 namespace Shine2.Pages
 {
     /// <summary>
-    /// Interaction logic for LevelSelect.xaml
+    /// A level selection page, clicking a button will switch page to
+    /// appropriate content
     /// </summary>
     public partial class LevelSelect : UserControl
     {
         public LevelSelect()
         {
             InitializeComponent();
-
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)

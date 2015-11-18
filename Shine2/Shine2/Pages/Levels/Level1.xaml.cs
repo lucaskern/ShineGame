@@ -15,10 +15,11 @@ using System.Windows.Shapes;
 namespace Shine2.Pages.Levels
 {
     /// <summary>
-    /// Interaction logic for Level1.xaml
+    /// Level 1
     /// </summary>
     public partial class Level1 : UserControl
     {
+        //bool used to determine if the player has won (unused)
         //bool win = false;
         MediaPlayer media = new MediaPlayer();
 
@@ -27,6 +28,7 @@ namespace Shine2.Pages.Levels
             InitializeComponent();
         }
 
+        //set win state to true, play tone, open win context menu
         private void Button_Click(object sender, RoutedEventArgs e)
         {
            // win = true;
@@ -36,12 +38,14 @@ namespace Shine2.Pages.Levels
             winBox.Visibility = System.Windows.Visibility.Visible;
         }
 
+        //Go to menu
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
             media.Stop();
             Switcher.Switch(new Menu());
         }
 
+        //Move on to next level
         private void Button_Click_2(object sender, RoutedEventArgs e)
         {
             media.Stop();

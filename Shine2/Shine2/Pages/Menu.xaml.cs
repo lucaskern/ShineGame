@@ -27,6 +27,8 @@ namespace Shine2.Pages
         public Menu()
         {
             InitializeComponent();
+
+            //Play song, call method to repeat when song ends
             media.Open(new Uri(@"../../Assets/Sound/song1.m4a", UriKind.Relative));
             media.Play();
             media.MediaEnded += new EventHandler(media_Ended);
@@ -39,15 +41,18 @@ namespace Shine2.Pages
             media.Play();
         }
 
+        //stop audio and open level select
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             media.Stop();
             Switcher.Switch(new LevelSelect());
         }
 
+        //stop audio and begin Level 1
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
-            media.Stop();
+           media.Stop();
+           //must specify the levels folder when going from a page in Menu to a page in Levels
            Switcher.Switch(new Levels.Level1Riddle());
         }
     }
