@@ -1,0 +1,12 @@
+C:\Users\harrk_000\Documents\IGME 201\ControlsBasics-WPF\.Debug\KinectInteraction170_32.dll
+C:\Users\harrk_000\Documents\IGME 201\ControlsBasics-WPF\.Debug\KinectInteraction170_64.dll
+C:\Users\harrk_000\Documents\IGME 201\ControlsBasics-WPF\.Debug\Microsoft.Kinect.Toolkit.Controls.dll
+C:\Users\harrk_000\Documents\IGME 201\ControlsBasics-WPF\.Debug\Microsoft.Kinect.Toolkit.Controls.pdb
+C:\Users\harrk_000\Documents\IGME 201\Microsoft.Kinect.Toolkit.Controls\obj\Debug\Microsoft.Kinect.Toolkit.Controls.csprojResolveAssemblyReference.cache
+C:\Users\harrk_000\Documents\IGME 201\Microsoft.Kinect.Toolkit.Controls\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\harrk_000\Documents\IGME 201\Microsoft.Kinect.Toolkit.Controls\obj\Debug\Microsoft.Kinect.Toolkit.Controls_MarkupCompile.cache
+C:\Users\harrk_000\Documents\IGME 201\Microsoft.Kinect.Toolkit.Controls\obj\Debug\Microsoft.Kinect.Toolkit.Controls_MarkupCompile.lref
+C:\Users\harrk_000\Documents\IGME 201\Microsoft.Kinect.Toolkit.Controls\obj\Debug\Themes\Generic.baml
+C:\Users\harrk_000\Documents\IGME 201\Microsoft.Kinect.Toolkit.Controls\obj\Debug\Microsoft.Kinect.Toolkit.Controls.g.resources
+C:\Users\harrk_000\Documents\IGME 201\Microsoft.Kinect.Toolkit.Controls\obj\Debug\Microsoft.Kinect.Toolkit.Controls.dll
+C:\Users\harrk_000\Documents\IGME 201\Microsoft.Kinect.Toolkit.Controls\obj\Debug\Microsoft.Kinect.Toolkit.Controls.pdb
