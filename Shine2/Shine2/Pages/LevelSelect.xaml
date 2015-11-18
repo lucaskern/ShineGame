@@ -6,10 +6,10 @@
              mc:Ignorable="d" 
              d:DesignHeight="720" d:DesignWidth="1280">
     <Grid Background="#FF252525">
-        <Button Content="level 1" x:Name="L1" HorizontalAlignment="Left" Margin="147.311,192.17,0,0" VerticalAlignment="Top" Width="142.2" Height="121.2" FontSize="36" Click="L1_Click"/>
-        <Button Content="level 2" HorizontalAlignment="Left" Margin="326.111,192.17,0,0" VerticalAlignment="Top" Width="142.2" Height="121.2" FontSize="36" Click="Button_Click_1"/>
-        <Button Content="level 3" HorizontalAlignment="Left" Margin="508.511,192.17,0,0" VerticalAlignment="Top" Width="142.2" Height="121.2" FontSize="36"/>
-        <Button Content="Home" HorizontalAlignment="Left" Margin="304.613,473.785,0,0" VerticalAlignment="Top" Width="178.8" Height="55.2" FontSize="36" Click="Button_Click"/>
+        <Button Content="level 1" x:Name="L1" HorizontalAlignment="Left" Margin="160,42,0,0" VerticalAlignment="Top" Width="264" Height="225" FontSize="36" Click="L1_Click"/>
+        <Button Content="level 2" HorizontalAlignment="Left" Margin="493,42,0,0" VerticalAlignment="Top" Width="264" Height="225" FontSize="36" Click="Button_Click_1"/>
+        <Button Content="level 3" HorizontalAlignment="Left" Margin="831,42,0,0" VerticalAlignment="Top" Width="265" Height="225" FontSize="36"/>
+        <Button Content="Home" HorizontalAlignment="Left" Margin="10,553,0,0" VerticalAlignment="Top" Width="287" Height="88" FontSize="36" Click="Button_Click" RenderTransformOrigin="0.5,0.5"/>
 
     </Grid>
 </UserControl>

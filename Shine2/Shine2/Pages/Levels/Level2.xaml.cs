@@ -11,28 +11,22 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using System.Globalization;
 
-namespace WPFPageSwitch.Menu
+namespace Shine2.Pages.Levels
 {
     /// <summary>
-    /// Interaction logic for Menu.xaml
+    /// Interaction logic for Level2.xaml
     /// </summary>
-    public partial class Menu : UserControl
+    public partial class Level2 : UserControl
     {
-        public Menu()
+        public Level2()
         {
             InitializeComponent();
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            Switcher.Switch(new LevelSelect());
-        }
-
-        private void Button_Click_1(object sender, RoutedEventArgs e)
-        {
-            Switcher.Switch(new L1Riddle());
+            Switcher.Switch(new Menu());
         }
     }
 }

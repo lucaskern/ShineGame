@@ -54,10 +54,26 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Pages\Levels\Level1.xaml.cs">
+      <DependentUpon>Level1.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Pages\LevelSelect.xaml.cs">
       <DependentUpon>LevelSelect.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Pages\Levels\Level1Riddle.xaml.cs">
+      <DependentUpon>Level1Riddle.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Levels\Level2.xaml.cs">
+      <DependentUpon>Level2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Levels\Level2Riddle.xaml.cs">
+      <DependentUpon>Level2Riddle.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Switcher.cs" />
+    <Page Include="Pages\Levels\Level1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -72,6 +88,18 @@
       <SubType>Code</SubType>
     </Compile>
     <Page Include="Pages\LevelSelect.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Levels\Level1Riddle.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Levels\Level2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Levels\Level2Riddle.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -110,11 +138,19 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Folder Include="Pages\Levels\" />
+    <Resource Include="Assets\desk.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Assets\desk.png" />
+    <Resource Include="Assets\banana.jpg" />
+    <Content Include="Assets\Sound\song1.m4a" />
+    <Content Include="Assets\Sound\sound3.m4a" />
+    <Resource Include="Assets\title.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
