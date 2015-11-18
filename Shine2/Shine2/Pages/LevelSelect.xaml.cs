@@ -11,6 +11,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using Shine2.Pages.Levels;
 
 namespace Shine2.Pages
 {
@@ -32,12 +33,12 @@ namespace Shine2.Pages
 
         private void L1_Click(object sender, RoutedEventArgs e)
         {
-           // Switcher.Switch(new L1Riddle());
+            Switcher.Switch(new Level1Riddle());
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
-           // Switcher.Switch(new L2Riddle());
+            Switcher.Switch(new Level2Riddle());
         }
     }
 }

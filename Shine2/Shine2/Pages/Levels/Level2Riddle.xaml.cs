@@ -20,7 +20,7 @@ namespace Shine2.Pages.Levels
     /// </summary>
     public partial class Level2Riddle : UserControl
     {
-         DispatcherTimer t1 = new DispatcherTimer();
+        DispatcherTimer t1 = new DispatcherTimer();
         private MediaPlayer media = new MediaPlayer();
         int num = 0;
         
