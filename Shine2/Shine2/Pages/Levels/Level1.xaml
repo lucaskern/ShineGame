@@ -4,7 +4,7 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              mc:Ignorable="d" 
-             Height="720" Width="1280">
+             Height="720" Width="1280" >
     <UserControl.Resources>
         <!-- This style is used for buttons, to remove the WPF default 'animated' mouse over effect -->
         <Style x:Key="MyButtonStyle" TargetType="Button">
@@ -32,9 +32,9 @@
         </Style>
     </UserControl.Resources>
     <Grid>
-        <Image Source="/Assets/desk.png" Stretch="Fill" Width="1280" Height="720"/>
-        <Button Style="{StaticResource MyButtonStyle}" Content="" Margin="127,492,1047,134"  Width="106" Height="94" Click="Button_Click" Foreground="Black" Background="#003B1313"></Button>
-
+        <Image Source="/Assets/desk.png" Stretch="Fill" Width="1280" Height="720" StretchDirection="DownOnly"/>
+        <!--<Button Style="{StaticResource MyButtonStyle}" Content="" Margin="127,492,1047,134"  Width="106" Height="94" Click="Button_Click" Foreground="Black" Background="#003B1313"></Button>-->
+        <Button Style="{StaticResource MyButtonStyle}" Content="" Margin="587,624,587,29"  Width="106" Foreground="Black" Background="#003B1313" Click="Button_Click_3"/>
         <Button Style="{StaticResource MyButtonStyle}" x:Name="key" BorderBrush="#00843838" Click="Button_Click" Width="128" Height="63" Margin="139,492,1013,165">
             <Button.Background>
                 <ImageBrush ImageSource="/Assets/key.png" Stretch="Uniform"/>
@@ -46,6 +46,12 @@
             <Button Width="400" Height="100" Margin="20" Content="Continue" FontSize="36" Click="Button_Click_2"/>
             <Button Width="400" Height="100" Margin="20" Content="Main Menu" FontSize="36" Background="#FFE1E1E1" Click="Button_Click_1"/>
         </StackPanel>
+
+        <StackPanel x:Name="inv" Margin="358,202,358,82" Background="Black" Opacity="0.9" Visibility="Hidden" >
+            <TextBlock Margin="30" Text="Inventory" FontSize="36" Foreground="White" HorizontalAlignment="Center"></TextBlock>
+            <TextBlock x:Name="items" TextWrapping="Wrap" Text="No Items" Margin="25,0,256,0" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="24" Width="283" Background="Transparent" Foreground="White" Height="290"/>
+        </StackPanel>
+        <Button Content="Inventory" HorizontalAlignment="Left" Margin="1175,674,0,0" VerticalAlignment="Top" Width="95" Height="36" Click="Button_Click_4"/>
     </Grid>
 
 </UserControl>
