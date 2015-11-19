@@ -6,7 +6,7 @@
              mc:Ignorable="d" 
             d:DesignHeight="720" d:DesignWidth="1280" Background="Black">
     <Grid>
-        <TextBlock x:Name="top" HorizontalAlignment="Center" Margin="0,50,0,0" TextWrapping="Wrap" Text="Riddle" VerticalAlignment="Top" Foreground="White" FontSize="72" FontFamily="Buxton Sketch"/>
-        <TextBlock x:Name="bottom" HorizontalAlignment="Center" Margin="0,400,0,0" TextWrapping="Wrap" Text="I dont know what this riddle is" VerticalAlignment="Top" Foreground="White" FontSize="72" FontFamily="Buxton Sketch"/>
-    </Grid> 
+        <TextBlock x:Name="top" HorizontalAlignment="Center" Margin="564,123,562,0" TextWrapping="Wrap" Text="Riddle" VerticalAlignment="Top" Foreground="White" FontSize="72" FontFamily="Buxton Sketch"/>
+        <TextBlock x:Name="bottom" HorizontalAlignment="Center" Margin="174,334,164,0" TextWrapping="Wrap" Text="What has no light but can be seen. Its wathcing you right now it seems." VerticalAlignment="Top" Foreground="White" FontSize="72" FontFamily="Buxton Sketch" Width="942"/>
+    </Grid>
 </UserControl>
