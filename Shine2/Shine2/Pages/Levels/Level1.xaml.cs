@@ -72,11 +72,12 @@ namespace Shine2.Pages.Levels
 
             } else if (hasKey == true)
             {
-                //open the win menu and play tune
-                winBox.Visibility = System.Windows.Visibility.Visible;
-             
-                media.Open(new Uri(@"../../Assets/Sound/solved2.m4a", UriKind.Relative));
+                back.Source = new BitmapImage(new Uri(@"../../Assets/deskOpen.png", UriKind.Relative));
+
+                media.Open(new Uri(@"../../Assets/Sound/drawerOpen.m4a", UriKind.Relative));
                 media.Play();
+
+                letter.Visibility = System.Windows.Visibility.Visible;
             }
         }
 
@@ -94,6 +95,14 @@ namespace Shine2.Pages.Levels
                 inv.Visibility = System.Windows.Visibility.Hidden;
                 invShow = false;
             }
+        }
+
+        private void letter_Click(object sender, RoutedEventArgs e)
+        {
+            winBox.Visibility = System.Windows.Visibility.Visible;
+
+            media.Open(new Uri(@"../../Assets/Sound/solved2.m4a", UriKind.Relative));
+            media.Play();
         }
     }
 }

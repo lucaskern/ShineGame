@@ -159,7 +159,16 @@
     <Resource Include="Assets\screen3.png" />
     <Resource Include="Assets\key.png" />
     <Resource Include="Assets\desk.png" />
+    <Resource Include="Assets\deskOpen.png" />
+    <Resource Include="Assets\letter.png" />
+    <Content Include="Assets\Sound\drawerOpen.m4a" />
+    <Content Include="Assets\Sound\grab.m4a" />
+    <Content Include="Assets\Sound\grab2.m4a" />
+    <Content Include="Assets\Sound\riddle.m4a" />
+    <Content Include="Assets\Sound\solved.m4a" />
+    <Content Include="Assets\Sound\solved2.m4a" />
     <Content Include="Assets\Sound\song1.m4a" />
+    <Content Include="Assets\Sound\song3.m4a" />
     <Content Include="Assets\Sound\sound3.m4a" />
     <Resource Include="Assets\title.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>

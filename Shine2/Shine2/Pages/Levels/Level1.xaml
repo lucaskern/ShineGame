@@ -32,12 +32,18 @@
         </Style>
     </UserControl.Resources>
     <Grid>
-        <Image Source="/Assets/desk.png" Stretch="Fill" Width="1280" Height="720" StretchDirection="DownOnly"/>
+        <Image x:Name="back" Source="/Assets/desk.png" Stretch="Fill" Width="1280" Margin="0,0,0,29"/>
         <!--<Button Style="{StaticResource MyButtonStyle}" Content="" Margin="127,492,1047,134"  Width="106" Height="94" Click="Button_Click" Foreground="Black" Background="#003B1313"></Button>-->
         <Button Style="{StaticResource MyButtonStyle}" Content="" Margin="587,624,587,29"  Width="106" Foreground="Black" Background="#003B1313" Click="Button_Click_3"/>
-        <Button Style="{StaticResource MyButtonStyle}" x:Name="key" BorderBrush="#00843838" Click="Button_Click" Width="128" Height="63" Margin="139,492,1013,165">
+        <Button Style="{StaticResource MyButtonStyle}" x:Name="key" BorderBrush="#00843838" Click="Button_Click" Width="128" Height="63" Margin="138,534,1014,123">
             <Button.Background>
                 <ImageBrush ImageSource="/Assets/key.png" Stretch="Uniform"/>
+            </Button.Background>
+        </Button>
+
+        <Button Style="{StaticResource MyButtonStyle}" x:Name="letter" BorderBrush="#00843838" Width="128" Height="63" Margin="587,597,565,60" Visibility="Hidden" Click="letter_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="/Assets/letter.png" Stretch="Uniform"/>
             </Button.Background>
         </Button>
 
@@ -51,7 +57,7 @@
             <TextBlock Margin="30" Text="Inventory" FontSize="36" Foreground="White" HorizontalAlignment="Center"></TextBlock>
             <TextBlock x:Name="items" TextWrapping="Wrap" Text="No Items" Margin="25,0,256,0" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="24" Width="283" Background="Transparent" Foreground="White" Height="290"/>
         </StackPanel>
-        <Button Content="Inventory" HorizontalAlignment="Left" Margin="1175,674,0,0" VerticalAlignment="Top" Width="95" Height="36" Click="Button_Click_4"/>
+        <Button Content="Inventory" HorizontalAlignment="Left" Margin="1175,624,0,0" VerticalAlignment="Top" Width="95" Height="36" Click="Button_Click_4" RenderTransformOrigin="0.897,-0.114"/>
     </Grid>
 
 </UserControl>
