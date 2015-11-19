@@ -6,7 +6,7 @@
              mc:Ignorable="d" 
              d:DesignHeight="720" d:DesignWidth="1280">
     <Grid>
-        <Image Source="/Assets/banana.jpg" Width="1280" Height="720" Stretch="Fill"></Image>
+        <Image Source="/Assets/screen2.png" Width="1280" Height="720" Stretch="Fill"/>
         <Button Content="Main Menu" HorizontalAlignment="Left" Margin="1045,623,0,0" VerticalAlignment="Top" Width="225" Height="58" FontSize="20" Click="Button_Click"/>
     </Grid>
 </UserControl>

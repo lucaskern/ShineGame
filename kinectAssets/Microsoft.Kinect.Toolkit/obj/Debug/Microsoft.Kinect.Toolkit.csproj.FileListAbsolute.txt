@@ -11,3 +11,12 @@ C:\Users\harrk_000\Documents\IGME 201\Microsoft.Kinect.Toolkit\obj\Debug\Microso
 C:\Users\harrk_000\Documents\IGME 201\Microsoft.Kinect.Toolkit\obj\Debug\Microsoft.Kinect.Toolkit.csproj.GenerateResource.Cache
 C:\Users\harrk_000\Documents\IGME 201\Microsoft.Kinect.Toolkit\obj\Debug\Microsoft.Kinect.Toolkit.dll
 C:\Users\harrk_000\Documents\IGME 201\Microsoft.Kinect.Toolkit\obj\Debug\Microsoft.Kinect.Toolkit.pdb
+C:\Users\Conner\Documents\gitShine\ShineGame\kinectAssets\Microsoft.Kinect.Toolkit\obj\Debug\Microsoft.Kinect.Toolkit.csprojResolveAssemblyReference.cache
+C:\Users\Conner\Documents\gitShine\ShineGame\kinectAssets\Microsoft.Kinect.Toolkit\obj\Debug\KinectSensorChooserUI.baml
+C:\Users\Conner\Documents\gitShine\ShineGame\kinectAssets\Microsoft.Kinect.Toolkit\obj\Debug\KinectSensorChooserUI.g.cs
+C:\Users\Conner\Documents\gitShine\ShineGame\kinectAssets\Microsoft.Kinect.Toolkit\obj\Debug\Microsoft.Kinect.Toolkit_MarkupCompile.cache
+C:\Users\Conner\Documents\gitShine\ShineGame\kinectAssets\Microsoft.Kinect.Toolkit\obj\Debug\Microsoft.Kinect.Toolkit.g.resources
+C:\Users\Conner\Documents\gitShine\ShineGame\kinectAssets\Microsoft.Kinect.Toolkit\obj\Debug\Microsoft.Kinect.Toolkit.Properties.Resources.resources
+C:\Users\Conner\Documents\gitShine\ShineGame\kinectAssets\Microsoft.Kinect.Toolkit\obj\Debug\Microsoft.Kinect.Toolkit.csproj.GenerateResource.Cache
+C:\Users\Conner\Documents\gitShine\ShineGame\kinectAssets\Microsoft.Kinect.Toolkit\obj\Debug\Microsoft.Kinect.Toolkit.dll
+C:\Users\Conner\Documents\gitShine\ShineGame\kinectAssets\Microsoft.Kinect.Toolkit\obj\Debug\Microsoft.Kinect.Toolkit.pdb

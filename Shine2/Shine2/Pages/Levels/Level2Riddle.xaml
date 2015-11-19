@@ -7,7 +7,7 @@
              d:DesignHeight="720" d:DesignWidth="1280" Background="Black">
     <Grid>
         <TextBlock x:Name="top" HorizontalAlignment="Center" Margin="0,50,0,0" TextWrapping="Wrap" Text="Riddle" VerticalAlignment="Top" FontSize="72" Foreground="White" FontFamily="Buxton Sketch"/>
-        <TextBlock x:Name="bottom" HorizontalAlignment="Center" Margin="0,400,0,0" TextWrapping="Wrap" Text="Nowhere to run" FontSize="72" Foreground="White" FontFamily="Buxton Sketch" VerticalAlignment="Top"/>
+        <TextBlock x:Name="bottom" HorizontalAlignment="Center" Margin="0,400,0,0" TextWrapping="Wrap" Text="Im not alive, Im not a place but You must walk the way I face." FontSize="72" Foreground="White" FontFamily="Buxton Sketch" VerticalAlignment="Top"/>
 
     </Grid>
 </UserControl>

@@ -10,3 +10,9 @@ C:\Users\harrk_000\Documents\IGME 201\Microsoft.Kinect.Toolkit.Controls\obj\Debu
 C:\Users\harrk_000\Documents\IGME 201\Microsoft.Kinect.Toolkit.Controls\obj\Debug\Microsoft.Kinect.Toolkit.Controls.g.resources
 C:\Users\harrk_000\Documents\IGME 201\Microsoft.Kinect.Toolkit.Controls\obj\Debug\Microsoft.Kinect.Toolkit.Controls.dll
 C:\Users\harrk_000\Documents\IGME 201\Microsoft.Kinect.Toolkit.Controls\obj\Debug\Microsoft.Kinect.Toolkit.Controls.pdb
+C:\Users\Conner\Documents\gitShine\ShineGame\kinectAssets\Microsoft.Kinect.Toolkit.Controls\obj\Debug\Microsoft.Kinect.Toolkit.Controls.csprojResolveAssemblyReference.cache
+C:\Users\Conner\Documents\gitShine\ShineGame\kinectAssets\Microsoft.Kinect.Toolkit.Controls\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Conner\Documents\gitShine\ShineGame\kinectAssets\Microsoft.Kinect.Toolkit.Controls\obj\Debug\Microsoft.Kinect.Toolkit.Controls_MarkupCompile.cache
+C:\Users\Conner\Documents\gitShine\ShineGame\kinectAssets\Microsoft.Kinect.Toolkit.Controls\obj\Debug\Microsoft.Kinect.Toolkit.Controls_MarkupCompile.lref
+C:\Users\Conner\Documents\gitShine\ShineGame\kinectAssets\Microsoft.Kinect.Toolkit.Controls\obj\Debug\Microsoft.Kinect.Toolkit.Controls.dll
+C:\Users\Conner\Documents\gitShine\ShineGame\kinectAssets\Microsoft.Kinect.Toolkit.Controls\obj\Debug\Microsoft.Kinect.Toolkit.Controls.pdb

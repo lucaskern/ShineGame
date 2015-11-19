@@ -40,5 +40,6 @@ namespace Shine2.Pages
         {
             Switcher.Switch(new Level2Riddle());
         }
+        
     }
 }
