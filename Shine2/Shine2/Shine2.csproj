@@ -69,6 +69,12 @@
     <Compile Include="Pages\Levels\Level2Riddle.xaml.cs">
       <DependentUpon>Level2Riddle.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Pages\Levels\Level3.xaml.cs">
+      <DependentUpon>Level3.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Levels\Level3Riddle.xaml.cs">
+      <DependentUpon>Level3Riddle.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Switcher.cs" />
     <Page Include="Pages\Levels\Level1.xaml">
       <SubType>Designer</SubType>
@@ -100,6 +106,14 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Pages\Levels\Level2Riddle.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Levels\Level3.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Levels\Level3Riddle.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -140,14 +154,11 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <Resource Include="Assets\desk.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Resource>
-  </ItemGroup>
-  <ItemGroup>
     <Resource Include="Assets\banana.jpg" />
     <Resource Include="Assets\screen2.png" />
     <Resource Include="Assets\screen3.png" />
+    <Resource Include="Assets\key.png" />
+    <Resource Include="Assets\desk.png" />
     <Content Include="Assets\Sound\song1.m4a" />
     <Content Include="Assets\Sound\sound3.m4a" />
     <Resource Include="Assets\title.png">

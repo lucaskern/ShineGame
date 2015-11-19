@@ -1,18 +1,8 @@
-Harrison Smells -- Fuck you Conner
+---------------
+Log
+---------------
 
-cd (where ever your Shine Game Folder is)
-
-git pull origin master
-
-Edit Stuff
-
-git status
-
-git add --all
-
-git commit -m "what did you do"
-
-git push origin master
+LK: Left off, need to finish hasKey method
 
 ---------------
 For Shine2
@@ -24,6 +14,12 @@ Page Switch
 
 	To switch to a new page, call this method
 	Switcher.Switch(new <PageYouWant>())
+
+To make a new page or level
+	1. Project > Add User Control (NOT ADD PAGE)
+	2. Name it appropriately
+		Level1, Level2, etc.
+		Level1Riddle, Level2Riddle, etc
 
 Riddle page
 	every .1 seconds, the timer ticks, to line up audio
@@ -41,12 +37,30 @@ Invisible button
 	use level 1 as a template, grab the button style from the xaml (above grid)
 	
 	then make a button with that style, change width/height accordingly
-	<Button Style="{StaticResource MyButtonStyle}" Content="" Margin="142,544,1032,82"  Width="106" Height="94" Click="Button_Click" Foreground="{x:Null}"/>
+	<Button Style="{StaticResource MyButtonStyle}" Content="" Width="106" Height="94" Background="#00DDDDDD" BorderBrush="#00707070" Click="Button_Click"/>
 
 Sizing, positioning
 	Some images and buttons seem to be shifted from the preview to
 	running the program, not sure why but if you fix it thatd be sweet
 	probably something stupid.
 
+	Set image to fill
 
-	
+
+---------------
+git
+---------------
+
+cd (where ever your Shine Game Folder is)
+
+git pull origin master
+
+Edit Stuff
+
+git status
+
+git add --all
+
+git commit -m "what did you do"
+
+git push origin master

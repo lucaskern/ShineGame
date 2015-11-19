@@ -19,6 +19,10 @@ namespace Shine2.Pages.Levels
     /// </summary>
     public partial class Level2 : UserControl
     {
+        //bool used to determine if the player has won (unused)
+        //bool win = false;
+        private MediaPlayer media = new MediaPlayer();
+
         public Level2()
         {
             InitializeComponent();
@@ -26,7 +30,26 @@ namespace Shine2.Pages.Levels
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
+            // win = true;
+            media.Open(new Uri(@"../../Assets/Sound/solved2.m4a", UriKind.Relative));
+            media.Play();
+
+            winBox.Visibility = System.Windows.Visibility.Visible;
+        }
+
+        //Go to menu
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            media.Stop();
             Switcher.Switch(new Menu());
         }
+
+        //Move on to next level
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            media.Stop();
+            Switcher.Switch(new Level3Riddle());
+        }
+       
     }
 }

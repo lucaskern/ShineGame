@@ -21,6 +21,7 @@ namespace Shine2.Pages.Levels
     {
         //bool used to determine if the player has won (unused)
         //bool win = false;
+        bool hasKey = false;
         MediaPlayer media = new MediaPlayer();
 
         public Level1()
@@ -31,11 +32,13 @@ namespace Shine2.Pages.Levels
         //set win state to true, play tone, open win context menu
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-           // win = true;
-            media.Open(new Uri(@"../../Assets/Sound/solved2.m4a", UriKind.Relative));
-            media.Play();
+            // win = true;
+            //media.Open(new Uri(@"../../Assets/Sound/solved2.m4a", UriKind.Relative));
+            //media.Play();
 
-            winBox.Visibility = System.Windows.Visibility.Visible;
+            key.Visibility = System.Windows.Visibility.Hidden;
+
+            //winBox.Visibility = System.Windows.Visibility.Visible;
         }
 
         //Go to menu

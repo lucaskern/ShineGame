@@ -93,3 +93,7 @@ C:\Users\Conner\Documents\gitShine\ShineGame\Shine2\Shine2\obj\Debug\Shine2_Mark
 C:\Users\Conner\Documents\gitShine\ShineGame\Shine2\Shine2\obj\Debug\Shine2.g.resources
 C:\Users\Conner\Documents\gitShine\ShineGame\Shine2\Shine2\obj\Debug\Shine2.Properties.Resources.resources
 C:\Users\Conner\Documents\gitShine\ShineGame\Shine2\Shine2\obj\Debug\Shine2.csproj.GenerateResource.Cache
+C:\Users\Owner\Desktop 4\IDAPS3\ShineGame\Shine2\Shine2\obj\Debug\Pages\Levels\Level3.baml
+C:\Users\Owner\Desktop 4\IDAPS3\ShineGame\Shine2\Shine2\obj\Debug\Pages\Levels\Level3Riddle.baml
+C:\Users\Owner\Desktop 4\IDAPS3\ShineGame\Shine2\Shine2\obj\Debug\Pages\Levels\Level3.g.cs
+C:\Users\Owner\Desktop 4\IDAPS3\ShineGame\Shine2\Shine2\obj\Debug\Pages\Levels\Level3Riddle.g.cs
