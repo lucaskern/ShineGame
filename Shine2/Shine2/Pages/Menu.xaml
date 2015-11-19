@@ -18,6 +18,7 @@
         <Button Content="Level Select" HorizontalAlignment="Left" Margin="957,460,0,0" VerticalAlignment="Top" Width="263" RenderTransformOrigin="-0.657,0.109" Height="194" FontSize="36" Click="Button_Click" BorderBrush="{x:Null}">
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+             
                     <GradientStop Color="Black" Offset="0"/>
                     <GradientStop Color="#FF787878" Offset="1"/>
                 </LinearGradientBrush>

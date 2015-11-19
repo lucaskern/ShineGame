@@ -6,8 +6,8 @@
              mc:Ignorable="d" 
              d:DesignHeight="720" d:DesignWidth="1280" Background="Black">
     <Grid>
-        <TextBlock x:Name="top" HorizontalAlignment="Center" Margin="0,50,0,0" TextWrapping="Wrap" Text="Riddle" VerticalAlignment="Top" FontSize="72" Foreground="White" FontFamily="Buxton Sketch"/>
-        <TextBlock x:Name="bottom" HorizontalAlignment="Center" Margin="0,400,0,0" TextWrapping="Wrap" Text="Im not alive, Im not a place but You must walk the way I face." FontSize="72" Foreground="White" FontFamily="Buxton Sketch" VerticalAlignment="Top"/>
+        <TextBlock x:Name="top" HorizontalAlignment="Center" Margin="545,62,426,0" TextWrapping="Wrap" Text="Riddle" VerticalAlignment="Top" FontSize="72" Foreground="White" FontFamily="Buxton Sketch" Width="309" Height="108"/>
+        <TextBlock x:Name="bottom" HorizontalAlignment="Center" Margin="157,233,114,0" TextWrapping="Wrap" Text="Im not alive, Im not a place but You must walk the way I face." FontSize="72" Foreground="White" FontFamily="Buxton Sketch" VerticalAlignment="Top" Width="1009" Height="423"/>
 
     </Grid>
 </UserControl>
