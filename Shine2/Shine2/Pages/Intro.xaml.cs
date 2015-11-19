@@ -13,51 +13,58 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.Windows.Threading;
 
-namespace Shine2.Pages.Levels
+
+namespace Shine2.Pages
 {
     /// <summary>
-    /// Riddle display
+    /// Interaction logic for Intro.xaml
     /// </summary>
-    public partial class Level1Riddle : UserControl
+    public partial class Intro : UserControl
     {
         //New timer and media player
         DispatcherTimer t1 = new DispatcherTimer();
         private MediaPlayer media = new MediaPlayer();
 
-        //int used to count timer ticks
+       //int used to count timer ticks
         int num = 0;
-
-        public Level1Riddle()
+        
+        public Intro()
         {
             //play music
-            media.Open(new Uri(@"../../Assets/Sound/riddle.m4a", UriKind.Relative));
+            media.Open(new Uri(@"../../Assets/Sound/intro.m4a", UriKind.Relative));
             media.Play();
 
             //set timer interval to 1/10 of a second, call method on tick, start timer
             t1.Interval = TimeSpan.FromSeconds(.1);
             t1.Tick += Timer_Tick;
             t1.Start();
-
+           
             InitializeComponent();
         }
 
         public void Timer_Tick(object sender, EventArgs e)
         {
             //Statement to increase font size at specific times
-            if (num == 5 || num == 20 || num == 35)
-            {
-                top.FontSize = top.FontSize + 20;
-                //bottom.FontSize = bottom.FontSize + 10;
-                //Change page at 5 seconds, stop music
-            }
-            else if (num == 50)
-            {
-                Switcher.Switch(new Level1());
-                t1.Stop();
-            }
+            //if ( )
+            //{
+            //    bottom.Opacity = bottom.Opacity + 5;
+                
+            //    //change page at 5 seconds, stop music
+            //}
+            //else if (num == 480)
+            //{
+            //    Switcher.Switch(new Menu());
+            //    t1.Stop();
+            //}
             //increase tick #
             num++;
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            Switcher.Switch(new Menu());
+            t1.Stop();
+            media.Stop();
+        }
     }
 }
-

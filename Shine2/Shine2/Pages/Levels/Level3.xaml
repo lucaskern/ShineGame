@@ -4,8 +4,41 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              mc:Ignorable="d" 
-             d:DesignHeight="720" d:DesignWidth="1280"> 
+             d:DesignHeight="720" d:DesignWidth="1280">
+    <UserControl.Resources>
+        <!-- This style is used for buttons, to remove the WPF default 'animated' mouse over effect -->
+        <Style x:Key="MyButtonStyle" TargetType="Button">
+            <Setter Property="OverridesDefaultStyle" Value="True"/>
+            <Setter Property="Margin" Value="5"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Name="border" 
+                            BorderThickness="0"
+                            Padding="4,2" 
+                            BorderBrush="DarkGray" 
+                            CornerRadius="3" 
+                            Background="{TemplateBinding Background}">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="border" Property="BorderBrush" Value="Black" />
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </UserControl.Resources>
     <Grid>
-        <Image Source="/Assets/screen3.png" HorizontalAlignment="Center" VerticalAlignment="Center" Stretch="Fill"/>
+        <Image Source="/Assets/screen2.png" Width="1280" Stretch="Fill"/>
+        <Button Style="{StaticResource MyButtonStyle}" Content="" Margin="368,435,806,191"  Width="106" Height="94" Foreground="Black" Background="#003B1313" Click="Button_Click"></Button>
+
+        <StackPanel x:Name="winBox" Margin="358,202,358,82" Background="Black" Opacity="0.9" Visibility="Hidden">
+            <TextBlock Margin="30" Text="You Have Solved The Riddle" FontSize="36" Foreground="White" HorizontalAlignment="Center"></TextBlock>
+            <Button Width="400" Height="100" Margin="20" Content="Continue" FontSize="36" Click="Button_Click_2"/>
+            <!--<Button Width="400" Height="100" Margin="20" Content="Main Menu" FontSize="36" Background="#FFE1E1E1" Click="Button_Click_1"/>-->
+        </StackPanel>
     </Grid>
 </UserControl>

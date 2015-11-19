@@ -4,9 +4,10 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              mc:Ignorable="d" 
-            d:DesignHeight="720" d:DesignWidth="1280" Background="Black">
+             d:DesignHeight="720" d:DesignWidth="1280" Background="Black">
     <Grid>
-        <TextBlock x:Name="top" HorizontalAlignment="Center" Margin="564,123,562,0" TextWrapping="Wrap" Text="Riddle" VerticalAlignment="Top" Foreground="White" FontSize="72" FontFamily="Buxton Sketch"/>
-        <TextBlock x:Name="bottom" HorizontalAlignment="Center" Margin="174,334,164,0" TextWrapping="Wrap" Text="Find a friend, alone and dark. The door to where the riddles marked" VerticalAlignment="Top" Foreground="White" FontSize="72" FontFamily="Buxton Sketch" Width="942"/>
+        <TextBlock x:Name="top" HorizontalAlignment="Center" Margin="495,61,476,0" TextWrapping="Wrap" Text="Riddle" VerticalAlignment="Top" FontSize="72" Foreground="White" FontFamily="Buxton Sketch"/>
+        <TextBlock x:Name="bottom" Margin="0,400,0,0" TextWrapping="Wrap" Text="Im not alive, Im not a place but You must walk the way I face." FontSize="60" Foreground="White" FontFamily="Buxton Sketch"  TextAlignment="Center" Height="241" Width="732"/>
+
     </Grid>
 </UserControl>

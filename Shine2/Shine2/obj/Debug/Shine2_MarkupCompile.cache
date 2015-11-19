@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\Conner\Documents\ShineGame\Shine2\Shine2\obj\Debug\
+C:\Users\Owner\Desktop 4\IDAPS3\ShineGame\Shine2\Shine2\obj\Debug\
 Shine2
 none
 false
 DEBUG;TRACE
-C:\Users\Conner\Documents\ShineGame\Shine2\Shine2\App.xaml
-9-1367630584
+C:\Users\Owner\Desktop 4\IDAPS3\ShineGame\Shine2\Shine2\App.xaml
+10-135136022
 91016070345
-15-457567151
+16-1551363760
 121654848548
-Pages\Levels\Level1.xaml;MainWindow.xaml;Pages\LevelSelect.xaml;Pages\Levels\Level1Riddle.xaml;Pages\Levels\Level2.xaml;Pages\Levels\Level2Riddle.xaml;Pages\Levels\Level3.xaml;Pages\Levels\Level3Riddle.xaml;Pages\Menu.xaml;
+Pages\Intro.xaml;Pages\Levels\Level2.xaml;MainWindow.xaml;Pages\LevelSelect.xaml;Pages\Levels\Level2Riddle.xaml;Pages\Levels\Level3.xaml;Pages\Levels\Level3Riddle.xaml;Pages\Levels\Level1.xaml;Pages\Levels\Level1Riddle.xaml;Pages\Menu.xaml;
 
 False
 

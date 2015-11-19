@@ -16,7 +16,7 @@ using System.Windows.Threading;
 namespace Shine2.Pages.Levels
 {
     /// <summary>
-    /// Level 2 Riddle display
+    /// Riddle display
     /// </summary>
     public partial class Level2Riddle : UserControl
     {
@@ -37,7 +37,7 @@ namespace Shine2.Pages.Levels
             t1.Interval = TimeSpan.FromSeconds(.1);
             t1.Tick += Timer_Tick;
             t1.Start();
-           
+
             InitializeComponent();
         }
 
@@ -47,8 +47,8 @@ namespace Shine2.Pages.Levels
             if(num == 5 || num == 20 || num == 35)
             {
                 top.FontSize = top.FontSize + 20;
-                bottom.FontSize = bottom.FontSize + 10;
-            //change page at 5 seconds, stop music
+               // bottom.FontSize = bottom.FontSize + 10;
+            //Change page at 5 seconds, stop music
             } else if (num == 50) {
                 Switcher.Switch(new Level2());
                 t1.Stop();
