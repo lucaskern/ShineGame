@@ -5,10 +5,36 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              mc:Ignorable="d" 
              d:DesignHeight="720" d:DesignWidth="1280">
+    <UserControl.Resources>
+        <!-- This style is used for buttons, to remove the WPF default 'animated' mouse over effect -->
+        <Style x:Key="MyButtonStyle" TargetType="Button">
+            <Setter Property="OverridesDefaultStyle" Value="True"/>
+            <Setter Property="Margin" Value="5"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Name="border" 
+                            BorderThickness="4"                           
+                            BorderBrush="White" 
+                            CornerRadius="3" 
+                            Background="{TemplateBinding Background}">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="border" Property="Background" Value="black" />
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </UserControl.Resources>
     <Grid>
+        
         <Image Source="/Assets/title.png" HorizontalAlignment="Left" Height="720" VerticalAlignment="Top" Width="1280"/>
-        <Button Content="Play Game" HorizontalAlignment="Left" Margin="73,460,0,0" VerticalAlignment="Top" Width="285" RenderTransformOrigin="-0.657,0.109" Height="194" FontSize="36" Click="Button_Click_1" BorderBrush="#ffffff" BorderThickness="5" Foreground="White" Background="#1A1A1A" FontFamily="../fonts/#Valium"/>
-        <Button Content="Level Select" HorizontalAlignment="Left" Margin="921,460,0,0" VerticalAlignment="Top" Width="299" RenderTransformOrigin="-0.657,0.109" Height="194" FontSize="36" Click="Button_Click" BorderBrush="#ffffff" BorderThickness="5" Foreground="White" Background="#1A1A1A" FontFamily="../fonts/#Valium"/>
+        <Button Content="Play Game" HorizontalAlignment="Left" Margin="73,460,0,0" VerticalAlignment="Top" Width="285" RenderTransformOrigin="-0.657,0.109" Height="194" FontSize="36" Click="Button_Click_1" BorderBrush="#ffffff" BorderThickness="5" Foreground="White" Background="#1A1A1A" FontFamily="../fonts/#Valium" Style="{StaticResource MyButtonStyle}" />
+        <Button Content="Level Select" HorizontalAlignment="Left" Margin="921,460,0,0" VerticalAlignment="Top" Width="299" RenderTransformOrigin="-0.657,0.109" Height="194" FontSize="36" Click="Button_Click" BorderBrush="#ffffff" BorderThickness="5" Foreground="White" Background="#1A1A1A" FontFamily="../fonts/#Valium" Style="{StaticResource MyButtonStyle}"/>
 
 
     </Grid>

@@ -5,11 +5,36 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              mc:Ignorable="d" 
              d:DesignHeight="720" d:DesignWidth="1280">
+    <UserControl.Resources>
+        <!-- This style is used for buttons, to remove the WPF default 'animated' mouse over effect -->
+        <Style x:Key="MyButtonStyle" TargetType="Button">
+            <Setter Property="OverridesDefaultStyle" Value="True"/>
+            <Setter Property="Margin" Value="5"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Name="border" 
+                            BorderThickness="4"                           
+                            BorderBrush="White" 
+                            CornerRadius="3" 
+                            Background="{TemplateBinding Background}">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="border" Property="Background" Value="black" />
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </UserControl.Resources>
     <Grid Background="#1A1A1A">
-        <Button Content="Scene 1" x:Name="L1" HorizontalAlignment="Left" Margin="160,42,0,0" VerticalAlignment="Top" Width="264" Height="225" FontSize="36"  BorderBrush="#ffffff" BorderThickness="5" Foreground="White" Background="#1A1A1A" Click="L1_Click" FontFamily="../fonts/#Valium"/>
-        <Button Content="Scene 2" HorizontalAlignment="Left" Margin="493,42,0,0" VerticalAlignment="Top" Width="264" Height="225" FontSize="36"  BorderBrush="#ffffff" BorderThickness="5" Foreground="White" Background="#1A1A1A" Click="Button_Click_1" FontFamily="../fonts/#Valium"/>
-        <Button Content="Scene 3" HorizontalAlignment="Left" Margin="831,42,0,0" VerticalAlignment="Top" Width="265" Height="225" FontSize="36"  BorderBrush="#ffffff" BorderThickness="5" Foreground="White" Background="#1A1A1A" Click="Button_Click_2" FontFamily="../fonts/#Valium"/>
-        <Button Content="Return" HorizontalAlignment="Left" Margin="470,542,0,0" VerticalAlignment="Top" Width="287" Height="88" FontSize="36" BorderBrush="#ffffff" BorderThickness="5" Foreground="White" Background="#1A1A1A" Click="Button_Click" RenderTransformOrigin="0.5,0.5" FontFamily="../fonts/#Valium"/>
+        <Button Content="Scene 1" x:Name="L1" HorizontalAlignment="Left" Margin="160,42,0,0" VerticalAlignment="Top" Width="264" Height="225" FontSize="36"  BorderBrush="#ffffff" BorderThickness="5" Foreground="White" Background="#1A1A1A" Click="L1_Click" FontFamily="../fonts/#Valium" Style="{StaticResource MyButtonStyle}"/>
+        <Button Content="Scene 2" HorizontalAlignment="Left" Margin="493,42,0,0" VerticalAlignment="Top" Width="264" Height="225" FontSize="36"  BorderBrush="#ffffff" BorderThickness="5" Foreground="White" Background="#1A1A1A" Click="Button_Click_1" FontFamily="../fonts/#Valium" Style="{StaticResource MyButtonStyle}"/>
+        <Button Content="Scene 3" HorizontalAlignment="Left" Margin="831,42,0,0" VerticalAlignment="Top" Width="265" Height="225" FontSize="36"  BorderBrush="#ffffff" BorderThickness="5" Foreground="White" Background="#1A1A1A" Click="Button_Click_2" FontFamily="../fonts/#Valium" Style="{StaticResource MyButtonStyle}"/>
+        <Button Content="Return" HorizontalAlignment="Left" Margin="470,542,0,0" VerticalAlignment="Top" Width="287" Height="88" FontSize="36" BorderBrush="#ffffff" BorderThickness="5" Foreground="White" Background="#1A1A1A" Click="Button_Click" RenderTransformOrigin="0.5,0.5" FontFamily="../fonts/#Valium" Style="{StaticResource MyButtonStyle}"/>
 
     </Grid>
 </UserControl>
