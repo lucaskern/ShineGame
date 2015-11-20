@@ -7,8 +7,8 @@
              d:DesignHeight="720" d:DesignWidth="1280">
     <Grid>
         <Image Source="/Assets/title.png" HorizontalAlignment="Left" Height="720" VerticalAlignment="Top" Width="1280"/>
-        <Button Content="Play Game" HorizontalAlignment="Left" Margin="73,460,0,0" VerticalAlignment="Top" Width="266" RenderTransformOrigin="-0.657,0.109" Height="194" FontSize="36" Click="Button_Click_1" BorderBrush="{x:Null}" Foreground="White" Background="#FF1F0404"/>
-        <Button Content="Level Select" HorizontalAlignment="Left" Margin="957,460,0,0" VerticalAlignment="Top" Width="263" RenderTransformOrigin="-0.657,0.109" Height="194" FontSize="36" Click="Button_Click" BorderBrush="{x:Null}" Foreground="White" Background="#FF190303"/>
+        <Button Content="Play Game" HorizontalAlignment="Left" Margin="73,460,0,0" VerticalAlignment="Top" Width="266" RenderTransformOrigin="-0.657,0.109" Height="194" FontSize="36" Click="Button_Click_1" BorderBrush="#ffffff" BorderThickness="5" Foreground="White" Background="#1A1A1A"/>
+        <Button Content="Level Select" HorizontalAlignment="Left" Margin="957,460,0,0" VerticalAlignment="Top" Width="263" RenderTransformOrigin="-0.657,0.109" Height="194" FontSize="36" Click="Button_Click" BorderBrush="#ffffff" BorderThickness="5" Foreground="White" Background="#1A1A1A"/>
 
 
     </Grid>

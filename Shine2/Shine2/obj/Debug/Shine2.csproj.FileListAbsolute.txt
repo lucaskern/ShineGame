@@ -133,3 +133,5 @@ C:\Users\Conner\Documents\ShineGame\Shine2\Shine2\obj\Debug\Shine2.Properties.Re
 C:\Users\Conner\Documents\ShineGame\Shine2\Shine2\obj\Debug\Shine2.csproj.GenerateResource.Cache
 C:\Users\Owner\Desktop 4\IDAPS3\ShineGame\Shine2\Shine2\obj\Debug\Pages\Intro.baml
 C:\Users\Owner\Desktop 4\IDAPS3\ShineGame\Shine2\Shine2\obj\Debug\Pages\Intro.g.cs
+C:\Users\Conner\Documents\ShineGame\Shine2\Shine2\obj\Debug\Pages\Intro.baml
+C:\Users\Conner\Documents\ShineGame\Shine2\Shine2\obj\Debug\Pages\Intro.g.cs
