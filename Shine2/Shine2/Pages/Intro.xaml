@@ -32,8 +32,8 @@
         </Style>
     </UserControl.Resources>
     <Grid Background="#1A1A1A">
-        <TextBlock HorizontalAlignment="Center" Margin="142,236,142,0" TextWrapping="Wrap" Text="California Mountain Snake Productions" VerticalAlignment="Top" FontSize="72" FontFamily="Buxton Sketch" Foreground="White" TextAlignment="Center"/>
-        <TextBlock x:Name="bottom" HorizontalAlignment="Center" Margin="465,537,465,0" TextWrapping="Wrap" Text="Press Any Key To Continue" VerticalAlignment="Top" FontSize="36" FontFamily="Buxton Sketch" Foreground="White" TextAlignment="Center"/>
+        <TextBlock HorizontalAlignment="Center" Margin="142,236,142,0" TextWrapping="Wrap" Text="California Mountain Snake Productions" VerticalAlignment="Top" FontSize="72" FontFamily="../fonts/#Valium" Foreground="White" TextAlignment="Center"  />
+        <TextBlock x:Name="bottom" HorizontalAlignment="Center" Margin="465,537,465,0" TextWrapping="Wrap" Text="Press Any Key To Continue" VerticalAlignment="Top" FontSize="36" FontFamily="../fonts/#Valium" Foreground="White" TextAlignment="Center"/>
 
         <Button Style="{StaticResource MyButtonStyle}" Content="" Margin="0" Foreground="Black" Background="#003B1313" Click="Button_Click"/>
     </Grid>
