@@ -21,13 +21,17 @@ namespace Shine2.Pages
     /// </summary>
     public partial class LevelSelect : UserControl
     {
+      
+
         public LevelSelect()
         {
             InitializeComponent();
         }
 
+        //Menu
         private void Button_Click(object sender, RoutedEventArgs e)
         {
+           
             Switcher.Switch(new Menu());
         }
 
@@ -36,11 +40,13 @@ namespace Shine2.Pages
             Switcher.Switch(new Level1Riddle());
         }
 
+        //L2
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
             Switcher.Switch(new Level2Riddle());
         }
 
+        //L3
         private void Button_Click_2(object sender, RoutedEventArgs e)
         {
             Switcher.Switch(new Level3Riddle());

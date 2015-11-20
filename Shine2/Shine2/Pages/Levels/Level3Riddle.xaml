@@ -6,7 +6,7 @@
              mc:Ignorable="d" 
              d:DesignHeight="720" d:DesignWidth="1280" Background="#1A1A1A">
     <Grid>
-        <TextBlock x:Name="top" HorizontalAlignment="Center" Margin="495,61,476,0" TextWrapping="Wrap" Text="Riddle" VerticalAlignment="Top" FontSize="72" Foreground="White" FontFamily="../../fonts/#Valium"/>
+        <TextBlock x:Name="top" HorizontalAlignment="Center" Margin="0,50,0,0" TextWrapping="Wrap" Text="Riddle" VerticalAlignment="Top" FontSize="72" Foreground="White" FontFamily="../../fonts/#Valium"/>
         <TextBlock x:Name="bottom" Margin="278,364,270,115" TextWrapping="Wrap" Text="Im not alive, Im not a place but You must walk the way I face." FontSize="60" Foreground="White" FontFamily="../../fonts/#Valium"  TextAlignment="Center" Height="241" Width="732"/>
 
     </Grid>

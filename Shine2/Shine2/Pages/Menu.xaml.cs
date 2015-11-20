@@ -21,7 +21,7 @@ namespace Shine2.Pages
     public partial class Menu : UserControl
     {
 
-        private MediaPlayer media = new MediaPlayer();
+        public MediaPlayer media = new MediaPlayer();
 
 
         public Menu()

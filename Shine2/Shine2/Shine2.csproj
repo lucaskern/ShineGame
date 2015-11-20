@@ -57,6 +57,9 @@
     <Compile Include="Pages\Intro.xaml.cs">
       <DependentUpon>Intro.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Pages\Levels\Circle.xaml.cs">
+      <DependentUpon>Circle.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Pages\Levels\Level2.xaml.cs">
       <DependentUpon>Level2.xaml</DependentUpon>
     </Compile>
@@ -80,6 +83,10 @@
     </Compile>
     <Compile Include="Switcher.cs" />
     <Page Include="Pages\Intro.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Levels\Circle.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -169,6 +176,7 @@
     <Resource Include="Assets\desk.png" />
     <Resource Include="Assets\deskOpen.png" />
     <Resource Include="Assets\letter.png" />
+    <Resource Include="Assets\flash.png" />
     <Content Include="Assets\Sound\drawerOpen.m4a" />
     <Content Include="Assets\Sound\grab.m4a" />
     <Content Include="Assets\Sound\grab2.m4a" />

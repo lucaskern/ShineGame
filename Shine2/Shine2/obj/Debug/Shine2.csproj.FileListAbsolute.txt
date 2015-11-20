@@ -135,3 +135,7 @@ C:\Users\Owner\Desktop 4\IDAPS3\ShineGame\Shine2\Shine2\obj\Debug\Pages\Intro.ba
 C:\Users\Owner\Desktop 4\IDAPS3\ShineGame\Shine2\Shine2\obj\Debug\Pages\Intro.g.cs
 C:\Users\Conner\Documents\ShineGame\Shine2\Shine2\obj\Debug\Pages\Intro.baml
 C:\Users\Conner\Documents\ShineGame\Shine2\Shine2\obj\Debug\Pages\Intro.g.cs
+C:\Users\Owner\Desktop 4\IDAPS3\ShineGame\Shine2\Shine2\obj\Debug\Pages\Levels\Circle.g.cs
+C:\Users\Owner\Desktop 4\IDAPS3\ShineGame\Shine2\Shine2\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Owner\Desktop 4\IDAPS3\ShineGame\Shine2\Shine2\obj\Debug\Shine2_MarkupCompile.lref
+C:\Users\Owner\Desktop 4\IDAPS3\ShineGame\Shine2\Shine2\obj\Debug\Pages\Levels\Circle.baml
