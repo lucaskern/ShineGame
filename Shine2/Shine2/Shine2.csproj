@@ -81,6 +81,9 @@
     <Compile Include="Pages\Levels\Level1Riddle.xaml.cs">
       <DependentUpon>Level1Riddle.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Pages\Levels\Light.xaml.cs">
+      <DependentUpon>Light.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Switcher.cs" />
     <Page Include="Pages\Intro.xaml">
       <SubType>Designer</SubType>
@@ -128,6 +131,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Pages\Levels\Level1Riddle.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Levels\Light.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
