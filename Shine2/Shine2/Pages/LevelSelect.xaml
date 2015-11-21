@@ -35,6 +35,7 @@
         <Button Content="Scene 2" HorizontalAlignment="Left" Margin="493,42,0,0" VerticalAlignment="Top" Width="264" Height="225" FontSize="36"  BorderBrush="#ffffff" BorderThickness="5" Foreground="White" Background="#1A1A1A" Click="Button_Click_1" FontFamily="../fonts/#Valium" Style="{StaticResource MyButtonStyle}"/>
         <Button Content="Scene 3" HorizontalAlignment="Left" Margin="831,42,0,0" VerticalAlignment="Top" Width="265" Height="225" FontSize="36"  BorderBrush="#ffffff" BorderThickness="5" Foreground="White" Background="#1A1A1A" Click="Button_Click_2" FontFamily="../fonts/#Valium" Style="{StaticResource MyButtonStyle}"/>
         <Button Content="Return" HorizontalAlignment="Left" Margin="470,542,0,0" VerticalAlignment="Top" Width="287" Height="88" FontSize="36" BorderBrush="#ffffff" BorderThickness="5" Foreground="White" Background="#1A1A1A" Click="Button_Click" RenderTransformOrigin="0.5,0.5" FontFamily="../fonts/#Valium" Style="{StaticResource MyButtonStyle}"/>
+        <Button Content="Safe" HorizontalAlignment="Left" Margin="899,405,0,0" VerticalAlignment="Top" Width="265" Height="225" FontSize="36"  BorderBrush="#ffffff" BorderThickness="5" Foreground="White" Background="#1A1A1A" FontFamily="../fonts/#Valium" Style="{StaticResource MyButtonStyle}" Click="Button_Click_3"/>
 
     </Grid>
 </UserControl>

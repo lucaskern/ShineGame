@@ -51,6 +51,11 @@ namespace Shine2.Pages
         {
             Switcher.Switch(new Light());
         }
+
+        private void Button_Click_3(object sender, RoutedEventArgs e)
+        {
+            Switcher.Switch(new Safe());
+        }
         
     }
 }
