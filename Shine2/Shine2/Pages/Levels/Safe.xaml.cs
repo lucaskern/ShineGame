@@ -32,9 +32,9 @@ namespace Shine2.Pages.Levels
         public Safe()
         {
             InitializeComponent();
-            combo[0] = 1;
-            combo[1] = 2;
-            combo[2] = 3;
+            combo[0] = 3;
+            combo[1] = 0;
+            combo[2] = 9;
 
             left.Text = leftNumString;
             center.Text = centerNumString;
@@ -44,55 +44,98 @@ namespace Shine2.Pages.Levels
         //left Up
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            leftNum++;
-            leftNumString = leftNum.ToString();
+            if (leftNum < 9)
+            {
+                leftNum++;
+                leftNumString = leftNum.ToString();
 
-            left.Text = leftNumString;
+                left.Text = leftNumString;
+            }
+            else
+            {
+
+            }
+
         }
 
         //left Down
         private void Button_Click_2(object sender, RoutedEventArgs e)
         {
-            leftNum--;
-            leftNumString = leftNum.ToString();
+            if (leftNum > 0)
+            {
+                leftNum--;
+                leftNumString = leftNum.ToString();
 
-            left.Text = leftNumString;
+                left.Text = leftNumString;
+            }
+            else
+            {
+
+            }
         }
 
         //center Up
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
-            centerNum++;
-            centerNumString = centerNum.ToString();
+            if (centerNum < 9)
+            {
+                centerNum++;
+                centerNumString = centerNum.ToString();
 
-            center.Text = centerNumString;
+                center.Text = centerNumString;
+            }
+            else
+            {
+
+            }
         }
 
         //center Down
         private void Button_Click_3(object sender, RoutedEventArgs e)
         {
-            centerNum--;
-            centerNumString = centerNum.ToString();
+            if (centerNum > 0)
+            {
+                centerNum--;
+                centerNumString = centerNum.ToString();
 
-            center.Text = centerNumString;
+                center.Text = centerNumString;
+            }
+            else
+            {
+
+            }
         }
 
         //right Up
         private void Button_Click_4(object sender, RoutedEventArgs e)
         {
-            rightNum++;
-            rightNumString = rightNum.ToString();
+            if (rightNum < 9)
+            {
+                rightNum++;
+                rightNumString = rightNum.ToString();
 
-            right.Text = rightNumString;
+                right.Text = rightNumString;
+            }
+            else
+            {
+
+            }
         }
 
         //right Down
         private void Button_Click_5(object sender, RoutedEventArgs e)
         {
-            rightNum--;
-            rightNumString = rightNum.ToString();
+            if (rightNum > 0)
+            {
+                rightNum--;
+                rightNumString = rightNum.ToString();
 
-            right.Text = rightNumString;
+                right.Text = rightNumString;
+            }
+            else
+            {
+
+            }
         }
 
         //check combo

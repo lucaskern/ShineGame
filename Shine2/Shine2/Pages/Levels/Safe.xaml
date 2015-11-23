@@ -6,39 +6,80 @@
              mc:Ignorable="d" 
              d:DesignHeight="720" d:DesignWidth="1280">
     <Grid Background="#FF786B6B">
-        <Image Source="/Assets/safePic.png" HorizontalAlignment="Left" Height="458" Margin="373,179,0,0" VerticalAlignment="Top" Width="458"/>
-        <StackPanel HorizontalAlignment="Center" Height="400" Margin="148,47,132,0" VerticalAlignment="Top" Width="1000" Background="Black" Opacity="0.895" Orientation="Horizontal">
+        <StackPanel HorizontalAlignment="Center" Height="400" Margin="59,50,84,0" VerticalAlignment="Top" Width="1100" Background="Black" Opacity="0.895" Orientation="Horizontal">
             <DockPanel LastChildFill="True" Width="300">
-                <Button DockPanel.Dock="Top" Height="100" Background="#FFC8B179" BorderBrush="#FFF22424" BorderThickness="3" Click="Button_Click" Content="Up" FontSize="48"></Button>
-                <Button DockPanel.Dock="Bottom" Height="100" Background="#FFC8B179" BorderBrush="#FFF22424" BorderThickness="3" Click="Button_Click_2" Content="Down" FontSize="48"/>
-                <Border BorderBrush="#FF2846B2" BorderThickness="3">
-                    <TextBlock x:Name="left" Background="#FF525252" FontSize="72"></TextBlock>
+                <Button DockPanel.Dock="Top" Height="100" BorderBrush="#FF1B1A1A" BorderThickness="3" Click="Button_Click" Content="Up" FontSize="48" Foreground="#FF323232">
+                    <Button.Background>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                            <GradientStop Color="#FFDDAE59" Offset="0"/>
+                            <GradientStop Color="#FFB9862A" Offset="1"/>
+                        </LinearGradientBrush>
+                    </Button.Background>
+                </Button>
+                <Button DockPanel.Dock="Bottom" Height="100" BorderBrush="#FF1B1A1A" BorderThickness="3" Click="Button_Click_2" Content="Down" FontSize="48" Foreground="#FF323232">
+                    <Button.Background>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                            <GradientStop Color="#FFDDAE59" Offset="0"/>
+                            <GradientStop Color="#FFB9862A" Offset="1"/>
+                        </LinearGradientBrush>
+                    </Button.Background>
+                </Button>
+                <Border BorderBrush="#FF151517" BorderThickness="3">
+                    <TextBlock x:Name="left" Background="#FF1B1313" FontSize="72"></TextBlock>
                 </Border>
             </DockPanel>
 
             <DockPanel LastChildFill="True" Width="300">
-                <Button DockPanel.Dock="Top" Height="100" Background="#FFC8B179" BorderBrush="#FFF22424" BorderThickness="3" Click="Button_Click_1" Content="Up" FontSize="48"></Button>
-                <Button DockPanel.Dock="Bottom" Height="100" Background="#FFC8B179" BorderBrush="#FFF22424" BorderThickness="3" Click="Button_Click_3" Content="Down" FontSize="48"/>
-                <Border BorderBrush="#FF2846B2" BorderThickness="3">
-                    <TextBlock x:Name="center" Background="#FF525252" FontSize="72"></TextBlock>
+                <Button DockPanel.Dock="Top" Height="100" BorderBrush="#FF1B1A1A" BorderThickness="3" Click="Button_Click_1" Content="Up" FontSize="48" Foreground="#FF323232">
+                    <Button.Background>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                            <GradientStop Color="#FFDDAE59" Offset="0"/>
+                            <GradientStop Color="#FFB9862A" Offset="1"/>
+                        </LinearGradientBrush>
+                    </Button.Background>
+                </Button>
+                <Button DockPanel.Dock="Bottom" Height="100" BorderBrush="#FF1B1A1A" BorderThickness="3" Click="Button_Click_3" Content="Down" FontSize="48" Foreground="#FF323232">
+                    <Button.Background>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                            <GradientStop Color="#FFDDAE59" Offset="0"/>
+                            <GradientStop Color="#FFB9862A" Offset="1"/>
+                        </LinearGradientBrush>
+                    </Button.Background>
+                </Button>
+                <Border BorderBrush="#FF0E0E0E" BorderThickness="3">
+                    <TextBlock x:Name="center" Background="#FF1B1313" FontSize="72"></TextBlock>
                 </Border>
             </DockPanel>
 
             <DockPanel LastChildFill="True" Width="300">
-                <Button DockPanel.Dock="Top" Height="100" Background="#FFC8B179" BorderBrush="#FFF22424" BorderThickness="3" Click="Button_Click_4" Content="Up" FontSize="48"></Button>
-                <Button DockPanel.Dock="Bottom" Height="100" Background="#FFC8B179" BorderBrush="#FFF22424" BorderThickness="3" Click="Button_Click_5" Content="Down" FontSize="48"/>
-                <Border BorderBrush="#FF2846B2" BorderThickness="3">
-                    <TextBlock x:Name="right" Background="#FF525252" FontSize="72"></TextBlock>
+                <Button DockPanel.Dock="Top" Height="100" BorderBrush="#FF1B1A1A" BorderThickness="3" Click="Button_Click_4" Content="Up" FontSize="48" Foreground="#FF323232">
+                    <Button.Background>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                            <GradientStop Color="#FFDDAE59" Offset="0"/>
+                            <GradientStop Color="#FFB9862A" Offset="1"/>
+                        </LinearGradientBrush>
+                    </Button.Background>
+                </Button>
+                <Button DockPanel.Dock="Bottom" Height="100" BorderBrush="#FF1B1A1A" BorderThickness="3" Click="Button_Click_5" Content="Down" FontSize="48" Foreground="#FF323232">
+                    <Button.Background>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                            <GradientStop Color="#FFDDAE59" Offset="0"/>
+                            <GradientStop Color="#FFB9862A" Offset="1"/>
+                        </LinearGradientBrush>
+                    </Button.Background>
+                </Button>
+                <Border BorderBrush="#FF1C1C1C" BorderThickness="3">
+                    <TextBlock x:Name="right" Background="#FF1B1313" FontSize="72"></TextBlock>
                 </Border>
             </DockPanel>
 
-            <DockPanel LastChildFill="True" Width="100">
-                <Button DockPanel.Dock="Top" Width="100" Content="Enter" FontSize="36" Height="200" Click="Button_Click_6"></Button>
-                <Border DockPanel.Dock="Bottom" BorderBrush="#FF243C91" BorderThickness="3">
-                    <TextBlock x:Name="isSolved" Background="#FF1CA8FF" FontSize="16" Text="hi"></TextBlock>
+            <DockPanel LastChildFill="True" Width="200">
+                <Button DockPanel.Dock="Top" Width="200" Content="Enter" FontSize="36" Height="200" Click="Button_Click_6" BorderBrush="#FF131212" BorderThickness="3"></Button>
+                <Border DockPanel.Dock="Bottom" BorderBrush="#FF131313" BorderThickness="3">
+                    <TextBlock x:Name="isSolved" Background="#FF444444" FontSize="36" Text="Code" TextAlignment="Center" Padding="0,75,0,0" Foreground="#FF5DFB55"/>
                 </Border>
             </DockPanel>
-           
+
         </StackPanel>
     </Grid>
 </UserControl>
