@@ -49,10 +49,15 @@ namespace Shine2.Pages
         //L3
         private void Button_Click_2(object sender, RoutedEventArgs e)
         {
-            Switcher.Switch(new Light());
+            Switcher.Switch(new Level3Riddle());
         }
 
         private void Button_Click_3(object sender, RoutedEventArgs e)
+        {
+            Switcher.Switch(new Light());
+        }
+
+        private void Button_Click_4(object sender, RoutedEventArgs e)
         {
             Switcher.Switch(new Safe());
         }

@@ -157,7 +157,6 @@ C:\Users\Lkvideorang\Desktop\I3Project\ShineGame\Shine2\Shine2\obj\Debug\Pages\L
 C:\Users\Lkvideorang\Desktop\I3Project\ShineGame\Shine2\Shine2\obj\Debug\Pages\Levels\Light.baml
 C:\Users\Lkvideorang\Desktop\I3Project\ShineGame\Shine2\Shine2\obj\Debug\Pages\Menu.baml
 C:\Users\Lkvideorang\Desktop\I3Project\ShineGame\Shine2\Shine2\obj\Debug\Pages\Intro.g.cs
-C:\Users\Lkvideorang\Desktop\I3Project\ShineGame\Shine2\Shine2\obj\Debug\Pages\Levels\Circle.g.cs
 C:\Users\Lkvideorang\Desktop\I3Project\ShineGame\Shine2\Shine2\obj\Debug\Pages\Levels\Level2.g.cs
 C:\Users\Lkvideorang\Desktop\I3Project\ShineGame\Shine2\Shine2\obj\Debug\MainWindow.g.cs
 C:\Users\Lkvideorang\Desktop\I3Project\ShineGame\Shine2\Shine2\obj\Debug\Pages\LevelSelect.g.cs
@@ -170,10 +169,7 @@ C:\Users\Lkvideorang\Desktop\I3Project\ShineGame\Shine2\Shine2\obj\Debug\Pages\L
 C:\Users\Lkvideorang\Desktop\I3Project\ShineGame\Shine2\Shine2\obj\Debug\Pages\Menu.g.cs
 C:\Users\Lkvideorang\Desktop\I3Project\ShineGame\Shine2\Shine2\obj\Debug\App.g.cs
 C:\Users\Lkvideorang\Desktop\I3Project\ShineGame\Shine2\Shine2\obj\Debug\Shine2_Content.g.cs
-C:\Users\Lkvideorang\Desktop\I3Project\ShineGame\Shine2\Shine2\obj\Debug\GeneratedInternalTypeHelper.g.cs
 C:\Users\Lkvideorang\Desktop\I3Project\ShineGame\Shine2\Shine2\obj\Debug\Shine2_MarkupCompile.cache
-C:\Users\Lkvideorang\Desktop\I3Project\ShineGame\Shine2\Shine2\obj\Debug\Shine2_MarkupCompile.lref
-C:\Users\Lkvideorang\Desktop\I3Project\ShineGame\Shine2\Shine2\obj\Debug\Pages\Levels\Circle.baml
 C:\Users\Lkvideorang\Desktop\I3Project\ShineGame\Shine2\Shine2\obj\Debug\Shine2.g.resources
 C:\Users\Lkvideorang\Desktop\I3Project\ShineGame\Shine2\Shine2\obj\Debug\Shine2.Properties.Resources.resources
 C:\Users\Lkvideorang\Desktop\I3Project\ShineGame\Shine2\Shine2\obj\Debug\Shine2.csproj.GenerateResource.Cache
@@ -181,3 +177,5 @@ C:\Users\Owner\Desktop 4\IDAPS3\ShineGame\Shine2\Shine2\obj\Debug\Pages\Levels\L
 C:\Users\Owner\Desktop 4\IDAPS3\ShineGame\Shine2\Shine2\obj\Debug\Pages\Levels\Light.g.cs
 C:\Users\Owner\Desktop 4\IDAPS3\ShineGame\Shine2\Shine2\obj\Debug\Pages\Levels\Safe.baml
 C:\Users\Owner\Desktop 4\IDAPS3\ShineGame\Shine2\Shine2\obj\Debug\Pages\Levels\Safe.g.cs
+C:\Users\Lkvideorang\Desktop\I3Project\ShineGame\Shine2\Shine2\obj\Debug\Pages\Levels\Safe.baml
+C:\Users\Lkvideorang\Desktop\I3Project\ShineGame\Shine2\Shine2\obj\Debug\Pages\Levels\Safe.g.cs
