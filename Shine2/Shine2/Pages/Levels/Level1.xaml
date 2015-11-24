@@ -31,9 +31,22 @@
             </Setter>
         </Style>
     </UserControl.Resources>
-    <Grid>
+    <Grid MouseMove="Grid_MouseMove">
         <Image Source="/Assets/screen3.png" HorizontalAlignment="Center" VerticalAlignment="Center" Stretch="Fill"/>
         <Image x:Name="open" Source="/Assets/screen3Open.png" HorizontalAlignment="Center" VerticalAlignment="Center" Stretch="Fill" Visibility="Hidden"/>
         <Button Style="{StaticResource MyButtonStyle}" Content="" Margin="561,361,622,217" Foreground="Black" Background="#003B1313" Click="Button_Click"/>
+
+        <Path Fill="Black">
+            <Path.Data>
+                <CombinedGeometry GeometryCombineMode="Exclude">
+                    <CombinedGeometry.Geometry1>
+                        <RectangleGeometry Rect="0,0,10000,10000"/>
+                    </CombinedGeometry.Geometry1>
+                    <CombinedGeometry.Geometry2>
+                        <EllipseGeometry x:Name="circle" RadiusX="100" RadiusY="100"/>
+                    </CombinedGeometry.Geometry2>
+                </CombinedGeometry>
+            </Path.Data>
+        </Path>
     </Grid>
 </UserControl>

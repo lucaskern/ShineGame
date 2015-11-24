@@ -31,8 +31,21 @@
             </Setter>
         </Style>
     </UserControl.Resources>
-    <Grid>
+    <Grid MouseMove="Grid_MouseMove">
         <Image Source="/Assets/forest.png" Stretch="Fill" />
         <Button Style="{StaticResource MyButtonStyle}" Content="" Margin="589,488,552,106" Foreground="Black" Background="#003B1313" Click="Button_Click" />
+
+        <Path Fill="Black">
+            <Path.Data>
+                <CombinedGeometry GeometryCombineMode="Exclude">
+                    <CombinedGeometry.Geometry1>
+                        <RectangleGeometry Rect="0,0,10000,10000"/>
+                    </CombinedGeometry.Geometry1>
+                    <CombinedGeometry.Geometry2>
+                        <EllipseGeometry x:Name="circle" RadiusX="100" RadiusY="100"/>
+                    </CombinedGeometry.Geometry2>
+                </CombinedGeometry>
+            </Path.Data>
+        </Path>
     </Grid>
 </UserControl>

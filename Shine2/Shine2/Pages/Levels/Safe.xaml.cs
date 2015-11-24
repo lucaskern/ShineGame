@@ -11,6 +11,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Windows.Threading;
 
 namespace Shine2.Pages.Levels
 {
@@ -19,6 +20,7 @@ namespace Shine2.Pages.Levels
     /// </summary>
     public partial class Safe : UserControl
     {
+        DispatcherTimer t1 = new DispatcherTimer();
 
         int[] combo = new int[3];
         int leftNum = 0;
@@ -31,6 +33,8 @@ namespace Shine2.Pages.Levels
 
         public Safe()
         {
+            t1.Interval = TimeSpan.FromSeconds(1.5);
+
             InitializeComponent();
             combo[0] = 3;
             combo[1] = 0;
@@ -143,7 +147,10 @@ namespace Shine2.Pages.Levels
         {
             if(Check() == "correct")
             {
-                Switcher.Switch(new Level5());
+                t1.Start();
+                t1.Tick += Timer_Tick;
+
+               
             } else if (Check() == "incorrect")
             {
                 //nothing
@@ -159,16 +166,22 @@ namespace Shine2.Pages.Levels
 
             if(combo[0] == potential[0] && combo[1] == potential[1] && combo[2] == potential[2])
             {
+                isSolved.Foreground = new SolidColorBrush(Colors.Green);
                 isSolved.Text = "Correct";
                 return "correct";
             }
             else
             {
+                isSolved.Foreground = new SolidColorBrush(Colors.Red);
                 isSolved.Text = "Incorrect";
                 return "incorrect";
             }
         }
 
-        
+        public void Timer_Tick(object sender, EventArgs e)
+        {
+            t1.Stop();
+            Switcher.Switch(new Level5());
+        }
     }
 }

@@ -44,5 +44,10 @@ namespace Shine2.Pages.Levels
             Switcher.Switch(new Level2Riddle());
             t1.Stop();
         }
+
+        private void Grid_MouseMove(object sender, MouseEventArgs e)
+        {
+            circle.Center = e.GetPosition((IInputElement)sender);
+        }
     }
 }

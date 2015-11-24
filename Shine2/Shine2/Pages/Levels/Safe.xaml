@@ -25,7 +25,7 @@
                     </Button.Background>
                 </Button>
                 <Border BorderBrush="#FF151517" BorderThickness="3">
-                    <TextBlock x:Name="left" Background="#FF1B1313" FontSize="72"></TextBlock>
+                    <TextBlock x:Name="left" Background="#FF1B1313" FontSize="72" TextAlignment="Center" Foreground="White"></TextBlock>
                 </Border>
             </DockPanel>
 
@@ -47,7 +47,7 @@
                     </Button.Background>
                 </Button>
                 <Border BorderBrush="#FF0E0E0E" BorderThickness="3">
-                    <TextBlock x:Name="center" Background="#FF1B1313" FontSize="72"></TextBlock>
+                    <TextBlock x:Name="center" Background="#FF1B1313" FontSize="72" TextAlignment="Center" Foreground="White"></TextBlock>
                 </Border>
             </DockPanel>
 
@@ -69,14 +69,14 @@
                     </Button.Background>
                 </Button>
                 <Border BorderBrush="#FF1C1C1C" BorderThickness="3">
-                    <TextBlock x:Name="right" Background="#FF1B1313" FontSize="72"></TextBlock>
+                    <TextBlock x:Name="right" Background="#FF1B1313" FontSize="72" TextAlignment="Center" Foreground="White"></TextBlock>
                 </Border>
             </DockPanel>
 
             <DockPanel LastChildFill="True" Width="200">
-                <Button DockPanel.Dock="Top" Width="200" Content="Enter" FontSize="36" Height="200" Click="Button_Click_6" BorderBrush="#FF131212" BorderThickness="3"></Button>
+                <Button DockPanel.Dock="Top" Width="200" Content="Enter" FontSize="36" Height="200" Click="Button_Click_6" BorderBrush="#FF131212" BorderThickness="3" FontFamily="MODERN TYPEWRITER"></Button>
                 <Border DockPanel.Dock="Bottom" BorderBrush="#FF131313" BorderThickness="3">
-                    <TextBlock x:Name="isSolved" Background="#FF444444" FontSize="36" Text="Code" TextAlignment="Center" Padding="0,75,0,0" Foreground="#FF5DFB55"/>
+                    <TextBlock x:Name="isSolved" Background="#FF444444" FontSize="36" Text="Code" TextAlignment="Center" Padding="0,75,0,0" Foreground="#FF5DFB55" FontFamily="MODERN TYPEWRITER"/>
                 </Border>
             </DockPanel>
 
