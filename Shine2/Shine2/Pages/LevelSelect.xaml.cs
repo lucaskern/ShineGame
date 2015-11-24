@@ -61,6 +61,11 @@ namespace Shine2.Pages
         {
             Switcher.Switch(new Safe());
         }
+
+        private void Button_Click_5(object sender, RoutedEventArgs e)
+        {
+            Switcher.Switch(new Level4Riddle());
+        }
         
     }
 }

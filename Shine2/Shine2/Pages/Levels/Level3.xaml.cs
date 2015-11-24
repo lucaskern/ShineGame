@@ -41,14 +41,15 @@ namespace Shine2.Pages.Levels
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
             media.Stop();
-            //Switcher.Switch(new Level4Riddle());
+            Switcher.Switch(new Menu());
         }
 
         //Go to menu
         private void Button_Click_2(object sender, RoutedEventArgs e)
         {
             media.Stop();
-            Switcher.Switch(new Menu());
+            Switcher.Switch(new Level4Riddle());
+            
         }
        
     }

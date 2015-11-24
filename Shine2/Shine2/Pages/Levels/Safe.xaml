@@ -6,7 +6,7 @@
              mc:Ignorable="d" 
              d:DesignHeight="720" d:DesignWidth="1280">
     <Grid Background="#FF786B6B">
-        <StackPanel HorizontalAlignment="Center" Height="400" Margin="59,50,84,0" VerticalAlignment="Top" Width="1100" Background="Black" Opacity="0.895" Orientation="Horizontal">
+        <StackPanel HorizontalAlignment="Center" Height="400" Margin="92,37,88,0" VerticalAlignment="Top" Width="1100" Background="Black" Opacity="0.895" Orientation="Horizontal">
             <DockPanel LastChildFill="True" Width="300">
                 <Button DockPanel.Dock="Top" Height="100" BorderBrush="#FF1B1A1A" BorderThickness="3" Click="Button_Click" Content="Up" FontSize="48" Foreground="#FF323232">
                     <Button.Background>

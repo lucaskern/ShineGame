@@ -11,6 +11,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Windows.Threading;
 
 namespace Shine2.Pages.Levels
 {
@@ -19,6 +20,8 @@ namespace Shine2.Pages.Levels
     /// </summary>
     public partial class Level1 : UserControl
     {
+        DispatcherTimer t1 = new DispatcherTimer();
+
         public Level1()
         {
             InitializeComponent();
@@ -26,7 +29,20 @@ namespace Shine2.Pages.Levels
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
+            open.Visibility = System.Windows.Visibility.Visible;
+
+            t1.Interval = TimeSpan.FromSeconds(2.0);
+            t1.Start();
+
+            t1.Tick += Timer_Tick;
+
+            
+        }
+
+        public void Timer_Tick(object sender, EventArgs e)
+        {
             Switcher.Switch(new Level2Riddle());
+            t1.Stop();
         }
     }
 }

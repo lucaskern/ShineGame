@@ -54,6 +54,12 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Pages\Levels\Level4.xaml.cs">
+      <DependentUpon>Level4.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Levels\Level4Riddle.xaml.cs">
+      <DependentUpon>Level4Riddle.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Pages\Intro.xaml.cs">
       <DependentUpon>Intro.xaml</DependentUpon>
     </Compile>
@@ -78,6 +84,9 @@
     <Compile Include="Pages\Levels\Level1Riddle.xaml.cs">
       <DependentUpon>Level1Riddle.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Pages\Levels\Level5.xaml.cs">
+      <DependentUpon>Level5.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Pages\Levels\Light.xaml.cs">
       <DependentUpon>Light.xaml</DependentUpon>
     </Compile>
@@ -85,6 +94,14 @@
       <DependentUpon>Safe.xaml</DependentUpon>
     </Compile>
     <Compile Include="Switcher.cs" />
+    <Page Include="Pages\Levels\Level4.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Levels\Level4Riddle.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Pages\Intro.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -127,6 +144,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Pages\Levels\Level1Riddle.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Levels\Level5.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -184,6 +205,9 @@
     <Resource Include="Assets\deskOpen.png" />
     <Resource Include="Assets\letter.png" />
     <Resource Include="Assets\flash.png" />
+    <Resource Include="Assets\forest.png" />
+    <Resource Include="Assets\screen3Open.png" />
+    <Resource Include="Assets\screenFinal.png" />
     <Content Include="Assets\Sound\drawerOpen.m4a" />
     <Content Include="Assets\Sound\grab.m4a" />
     <Content Include="Assets\Sound\grab2.m4a" />

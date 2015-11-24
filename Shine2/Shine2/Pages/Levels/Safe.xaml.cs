@@ -141,10 +141,16 @@ namespace Shine2.Pages.Levels
         //check combo
         private void Button_Click_6(object sender, RoutedEventArgs e)
         {
-            Check();
+            if(Check() == "correct")
+            {
+                Switcher.Switch(new Level5());
+            } else if (Check() == "incorrect")
+            {
+                //nothing
+            }
         }
 
-        private void Check()
+        private string Check()
         {
             int[] potential = new int[3];
             potential[0] = leftNum;
@@ -154,10 +160,12 @@ namespace Shine2.Pages.Levels
             if(combo[0] == potential[0] && combo[1] == potential[1] && combo[2] == potential[2])
             {
                 isSolved.Text = "Correct";
+                return "correct";
             }
             else
             {
                 isSolved.Text = "Incorrect";
+                return "incorrect";
             }
         }
 
