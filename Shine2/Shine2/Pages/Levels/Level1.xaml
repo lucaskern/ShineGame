@@ -36,6 +36,12 @@
         <Image x:Name="open" Source="/Assets/screen3Open.png" HorizontalAlignment="Center" VerticalAlignment="Center" Stretch="Fill" Visibility="Hidden"/>
         <Button Style="{StaticResource MyButtonStyle}" Content="" Margin="561,361,622,217" Foreground="Black" Background="#003B1313" Click="Button_Click"/>
 
+        <StackPanel x:Name="winBox" Margin="358,202,358,82" Background="Black" Opacity="0.9" Visibility="Hidden">
+            <TextBlock Margin="30" Text="You Have Solved The Riddle" FontSize="33" Foreground="White" HorizontalAlignment="Center" FontFamily="../../fonts/#Valium"></TextBlock>
+            <Button Width="400" Height="100" Margin="20" Content="Continue" FontSize="36" FontFamily="../../fonts/#Valium" Click="Button_Click_1"/>
+            <Button Width="400" Height="100" Margin="20" Content="Main Menu" FontSize="36" Background="#FFE1E1E1"  FontFamily="../../fonts/#Valium" Click="Button_Click_2"/>
+        </StackPanel>
+        
         <Path x:Name="flash" Fill="Black">
             <Path.Data>
                 <CombinedGeometry GeometryCombineMode="Exclude">

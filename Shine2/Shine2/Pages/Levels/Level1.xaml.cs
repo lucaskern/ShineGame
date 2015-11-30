@@ -36,13 +36,14 @@ namespace Shine2.Pages.Levels
 
             t1.Tick += Timer_Tick;
 
-            flash.Visibility = System.Windows.Visibility.Hidden; 
+            
             
         }
 
         public void Timer_Tick(object sender, EventArgs e)
         {
-            Switcher.Switch(new Level2Riddle());
+            winBox.Visibility = System.Windows.Visibility.Visible;
+            flash.Visibility = System.Windows.Visibility.Hidden; 
             t1.Stop();
         }
 
@@ -50,5 +51,17 @@ namespace Shine2.Pages.Levels
         {
             circle.Center = e.GetPosition((IInputElement)sender);
         }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            Switcher.Switch(new Level2Riddle());
+        }
+
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            Switcher.Switch(new Menu());
+        }
+
+
     }
 }
