@@ -7,6 +7,6 @@
              d:DesignHeight="720" d:DesignWidth="1280">
     <Grid Background="#FF070707">
         <TextBlock x:Name="top" HorizontalAlignment="Center" Margin="0,50,0,0" TextWrapping="Wrap" Text="Riddle" VerticalAlignment="Top" FontSize="72" Foreground="White" FontFamily="../../fonts/#Valium"/>
-        <TextBlock x:Name="bottom" Margin="278,364,270,115" TextWrapping="Wrap" Text="I dont know this riddle" FontSize="60" Foreground="White" FontFamily="../../fonts/#Valium"  TextAlignment="Center" Height="241" Width="732"/>
+        <TextBlock x:Name="bottom" Margin="278,364,270,115" TextWrapping="Wrap" Text="The world is your cipher." FontSize="60" Foreground="White" FontFamily="../../fonts/#Valium"  TextAlignment="Center" Height="241" Width="732"/>
     </Grid>
 </UserControl>

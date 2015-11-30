@@ -135,10 +135,6 @@ C:\Users\Owner\Desktop 4\IDAPS3\ShineGame\Shine2\Shine2\obj\Debug\Pages\Intro.ba
 C:\Users\Owner\Desktop 4\IDAPS3\ShineGame\Shine2\Shine2\obj\Debug\Pages\Intro.g.cs
 C:\Users\Conner\Documents\ShineGame\Shine2\Shine2\obj\Debug\Pages\Intro.baml
 C:\Users\Conner\Documents\ShineGame\Shine2\Shine2\obj\Debug\Pages\Intro.g.cs
-C:\Users\Conner\Documents\ShineGame\Shine2\Shine2\obj\Debug\Pages\Levels\Circle.g.cs
-C:\Users\Conner\Documents\ShineGame\Shine2\Shine2\obj\Debug\GeneratedInternalTypeHelper.g.cs
-C:\Users\Conner\Documents\ShineGame\Shine2\Shine2\obj\Debug\Shine2_MarkupCompile.lref
-C:\Users\Conner\Documents\ShineGame\Shine2\Shine2\obj\Debug\Pages\Levels\Circle.baml
 C:\Users\Lkvideorang\Desktop\I3Project\ShineGame\Shine2\Shine2\bin\Debug\Shine2.exe.config
 C:\Users\Lkvideorang\Desktop\I3Project\ShineGame\Shine2\Shine2\obj\Debug\Shine2.exe
 C:\Users\Lkvideorang\Desktop\I3Project\ShineGame\Shine2\Shine2\obj\Debug\Shine2.pdb
@@ -185,3 +181,13 @@ C:\Users\Owner\Desktop 4\IDAPS3\ShineGame\Shine2\Shine2\obj\Debug\Pages\Levels\L
 C:\Users\Owner\Desktop 4\IDAPS3\ShineGame\Shine2\Shine2\obj\Debug\Pages\Levels\Level4Riddle.g.cs
 C:\Users\Owner\Desktop 4\IDAPS3\ShineGame\Shine2\Shine2\obj\Debug\Pages\Levels\Level5.baml
 C:\Users\Owner\Desktop 4\IDAPS3\ShineGame\Shine2\Shine2\obj\Debug\Pages\Levels\Level5.g.cs
+C:\Users\Conner\Documents\ShineGame\Shine2\Shine2\obj\Debug\Pages\Levels\Level4.baml
+C:\Users\Conner\Documents\ShineGame\Shine2\Shine2\obj\Debug\Pages\Levels\Level4Riddle.baml
+C:\Users\Conner\Documents\ShineGame\Shine2\Shine2\obj\Debug\Pages\Levels\Level5.baml
+C:\Users\Conner\Documents\ShineGame\Shine2\Shine2\obj\Debug\Pages\Levels\Light.baml
+C:\Users\Conner\Documents\ShineGame\Shine2\Shine2\obj\Debug\Pages\Levels\Safe.baml
+C:\Users\Conner\Documents\ShineGame\Shine2\Shine2\obj\Debug\Pages\Levels\Level4.g.cs
+C:\Users\Conner\Documents\ShineGame\Shine2\Shine2\obj\Debug\Pages\Levels\Level4Riddle.g.cs
+C:\Users\Conner\Documents\ShineGame\Shine2\Shine2\obj\Debug\Pages\Levels\Level5.g.cs
+C:\Users\Conner\Documents\ShineGame\Shine2\Shine2\obj\Debug\Pages\Levels\Light.g.cs
+C:\Users\Conner\Documents\ShineGame\Shine2\Shine2\obj\Debug\Pages\Levels\Safe.g.cs
