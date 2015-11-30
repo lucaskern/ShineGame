@@ -60,7 +60,7 @@ namespace Shine2.Pages.Levels
         private void Button_Click_2(object sender, RoutedEventArgs e)
         {
             media.Stop();
-            Switcher.Switch(new Level3Riddle());
+            Switcher.Switch(new Level3Riddle()); 
         }
 
         // Drawer Area Click
@@ -95,6 +95,7 @@ namespace Shine2.Pages.Levels
                 inv.Visibility = System.Windows.Visibility.Hidden;
                 invShow = false;
             }
+
         }
 
         private void letter_Click(object sender, RoutedEventArgs e)
@@ -103,6 +104,7 @@ namespace Shine2.Pages.Levels
 
             media.Open(new Uri(@"../../Assets/Sound/solved2.m4a", UriKind.Relative));
             media.Play();
+            flash.Visibility = System.Windows.Visibility.Hidden;
         }
 
         private void Grid_MouseMove(object sender, MouseEventArgs e)

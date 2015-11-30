@@ -36,7 +36,7 @@
         <Image x:Name="open" Source="/Assets/screen3Open.png" HorizontalAlignment="Center" VerticalAlignment="Center" Stretch="Fill" Visibility="Hidden"/>
         <Button Style="{StaticResource MyButtonStyle}" Content="" Margin="561,361,622,217" Foreground="Black" Background="#003B1313" Click="Button_Click"/>
 
-        <Path Fill="Black">
+        <Path x:Name="flash" Fill="Black">
             <Path.Data>
                 <CombinedGeometry GeometryCombineMode="Exclude">
                     <CombinedGeometry.Geometry1>

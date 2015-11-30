@@ -35,7 +35,7 @@
         <Image Source="/Assets/forest.png" Stretch="Fill" />
         <Button Style="{StaticResource MyButtonStyle}" Content="" Margin="589,488,552,106" Foreground="Black" Background="#003B1313" Click="Button_Click" />
 
-        <Path Fill="Black">
+        <Path x:Name="flash" Fill="Black">
             <Path.Data>
                 <CombinedGeometry GeometryCombineMode="Exclude">
                     <CombinedGeometry.Geometry1>

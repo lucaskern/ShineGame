@@ -183,5 +183,10 @@ namespace Shine2.Pages.Levels
             t1.Stop();
             Switcher.Switch(new Level5());
         }
+
+        private void Button_Click_7(object sender, RoutedEventArgs e)
+        {
+            Switcher.Switch(new Level4());
+        }
     }
 }

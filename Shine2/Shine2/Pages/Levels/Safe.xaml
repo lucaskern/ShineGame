@@ -5,6 +5,31 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              mc:Ignorable="d" 
              d:DesignHeight="720" d:DesignWidth="1280">
+    <UserControl.Resources>
+        <!-- This style is used for buttons, to remove the WPF default 'animated' mouse over effect -->
+        <Style x:Key="MyButtonStyle" TargetType="Button">
+            <Setter Property="OverridesDefaultStyle" Value="True"/>
+            <Setter Property="Margin" Value="5"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Name="border" 
+                            BorderThickness="4"                           
+                            BorderBrush="White" 
+                            CornerRadius="3" 
+                            Background="{TemplateBinding Background}">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="border" Property="Background" Value="black" />
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </UserControl.Resources>
     <Grid Background="#FF786B6B">
         <StackPanel HorizontalAlignment="Center" Height="400" Margin="92,37,88,0" VerticalAlignment="Top" Width="1100" Background="Black" Opacity="0.895" Orientation="Horizontal">
             <DockPanel LastChildFill="True" Width="300">
@@ -81,5 +106,6 @@
             </DockPanel>
 
         </StackPanel>
+        <Button Content="Back" HorizontalAlignment="Left" Margin="959,506,0,0" VerticalAlignment="Top" Width="233" Height="99" Click="Button_Click_7" Background="#1a1a1a" Foreground="White" FontFamily="../../fonts/#Valium" Style="{StaticResource MyButtonStyle}" FontSize="36"/>
     </Grid>
 </UserControl>

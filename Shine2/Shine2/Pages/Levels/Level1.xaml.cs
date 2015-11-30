@@ -36,6 +36,7 @@ namespace Shine2.Pages.Levels
 
             t1.Tick += Timer_Tick;
 
+            flash.Visibility = System.Windows.Visibility.Hidden; 
             
         }
 
