@@ -31,7 +31,7 @@ namespace Shine2.Pages.Levels
         public Level1()
         {
             InitializeComponent();
-            m1.Open(new Uri(@"../../Assets/Sound/ambiance.m4a", UriKind.Relative));
+            m1.Open(new Uri(@"../../Assets/Sound/ambience.m4a", UriKind.Relative));
             m1.Play();
             m1.MediaEnded += new EventHandler(media_Ended);
         }
