@@ -208,9 +208,12 @@
     <Resource Include="Assets\forest.png" />
     <Resource Include="Assets\screen3Open.png" />
     <Resource Include="Assets\screenFinal.png" />
+    <Content Include="Assets\Sound\ambiance.m4a" />
+    <Content Include="Assets\Sound\clock.m4a" />
     <Content Include="Assets\Sound\drawerOpen.m4a" />
     <Content Include="Assets\Sound\grab.m4a" />
     <Content Include="Assets\Sound\grab2.m4a" />
+    <Content Include="Assets\Sound\lighter.m4a" />
     <Content Include="Assets\Sound\riddle.m4a" />
     <Content Include="Assets\Sound\solved.m4a" />
     <Content Include="Assets\Sound\solved2.m4a" />

@@ -19,9 +19,19 @@ namespace Shine2.Pages.Levels
     /// </summary>
     public partial class Level4 : UserControl
     {
+        MediaPlayer m1 = new MediaPlayer();
         public Level4()
         {
             InitializeComponent();
+            m1.Open(new Uri(@"../../Assets/Sound/ambiance.m4a", UriKind.Relative));
+            m1.Play();
+            m1.MediaEnded += new EventHandler(media_Ended);
+        }
+        //loops audio
+        private void media_Ended(object sender, EventArgs e)
+        {
+            m1.Position = TimeSpan.FromSeconds(0);
+            m1.Play();
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
