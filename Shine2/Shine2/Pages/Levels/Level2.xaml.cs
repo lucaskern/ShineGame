@@ -33,8 +33,8 @@ namespace Shine2.Pages.Levels
         {
             InitializeComponent();
             //play ambiance sound
-            media.Open(new Uri(@"../../Assets/Sound/ambiance2.m4a", UriKind.Relative));
-            media.Play();
+            m1.Open(new Uri(@"../../Assets/Sound/ambiance2.m4a", UriKind.Relative));
+            m1.Play();
         }
 
         //Click key, add to inv and make hidden
@@ -43,7 +43,6 @@ namespace Shine2.Pages.Levels
             //play grab sound
             media.Open(new Uri(@"../../Assets/Sound/grab2.m4a", UriKind.Relative));
             media.Play();
-
 
 
             //Hide key, register as holding
@@ -116,6 +115,20 @@ namespace Shine2.Pages.Levels
         private void Grid_MouseMove(object sender, MouseEventArgs e)
         {
             circle.Center = e.GetPosition((IInputElement)sender);
+        }
+
+        //clock button
+        private void Button_Click_5(object sender, RoutedEventArgs e)
+        {
+            media.Open(new Uri(@"../../Assets/Sound/clock.m4a", UriKind.Relative));
+            media.Play();
+        }
+
+        //candle
+        private void Button_Click_6(object sender, RoutedEventArgs e)
+        {
+            media.Open(new Uri(@"../../Assets/Sound/lighter.m4a", UriKind.Relative));
+            media.Play();
         }
     }
 }
