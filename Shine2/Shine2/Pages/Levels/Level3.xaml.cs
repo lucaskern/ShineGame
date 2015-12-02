@@ -23,6 +23,8 @@ namespace Shine2.Pages.Levels
         //bool win = false;
         private MediaPlayer media = new MediaPlayer();
 
+        bool ridShow = false;
+
         public Level3()
         {
             InitializeComponent();
@@ -50,6 +52,20 @@ namespace Shine2.Pages.Levels
             media.Stop();
             Switcher.Switch(new Level4Riddle());
             
+        }
+
+        private void Button_Click_3(object sender, RoutedEventArgs e)
+        {
+            if (ridShow == false)
+            {
+                rid.Visibility = System.Windows.Visibility.Visible;
+                ridShow = true;
+            }
+            else if (ridShow == true)
+            {
+                rid.Visibility = System.Windows.Visibility.Hidden;
+                ridShow = false;
+            }
         }
        
     }

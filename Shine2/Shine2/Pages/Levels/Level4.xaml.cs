@@ -19,11 +19,15 @@ namespace Shine2.Pages.Levels
     /// </summary>
     public partial class Level4 : UserControl
     {
+        // ambience/music
         MediaPlayer m1 = new MediaPlayer();
+
+        bool ridShow = false;
+
         public Level4()
         {
             InitializeComponent();
-            m1.Open(new Uri(@"../../Assets/Sound/ambiance.m4a", UriKind.Relative));
+            m1.Open(new Uri(@"../../Assets/Sound/ambience.m4a", UriKind.Relative));
             m1.Play();
             m1.MediaEnded += new EventHandler(media_Ended);
         }
@@ -37,11 +41,26 @@ namespace Shine2.Pages.Levels
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             Switcher.Switch(new Safe());
+            m1.Stop();
         }
 
         private void Grid_MouseMove(object sender, MouseEventArgs e)
         {
             circle.Center = e.GetPosition((IInputElement)sender);
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            if (ridShow == false)
+            {
+                rid.Visibility = System.Windows.Visibility.Visible;
+                ridShow = true;
+            }
+            else if (ridShow == true)
+            {
+                rid.Visibility = System.Windows.Visibility.Hidden;
+                ridShow = false;
+            }
         }
     }
 }

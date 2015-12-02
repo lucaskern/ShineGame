@@ -55,7 +55,7 @@
             <Button Width="400" Height="100" Margin="20" Content="Main Menu" FontSize="36" Background="#FFE1E1E1" Click="Button_Click_1" FontFamily="../../fonts/#Valium"/>
         </StackPanel>
 
-        <Path x:Name="flash" Fill="Black" Visibility="Hidden"> 
+        <Path x:Name="flash" Fill="Black" Visibility="Visible">
             <Path.Data>
                 <CombinedGeometry GeometryCombineMode="Exclude">
                     <CombinedGeometry.Geometry1>
@@ -68,12 +68,19 @@
             </Path.Data>
         </Path>
         <StackPanel x:Name="inv" Margin="358,134,358,150" Background="#1A1A1A" Opacity="0.9" Visibility="Hidden" >
-            <TextBlock Margin="30" Text="Inventory" FontSize="36" Foreground="White" HorizontalAlignment="Center" FontFamily="../../fonts/#Valium"></TextBlock>
-            <TextBlock x:Name="items" TextWrapping="Wrap" Text="No Items" Margin="25,0,256,0" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="24" Width="283" Background="Transparent" Foreground="White" Height="290" FontFamily="../../fonts/#Valium"/>
+            <TextBlock Margin="30" Text="Inventory" FontSize="72" Foreground="White" HorizontalAlignment="Center" FontFamily="../../fonts/#Valium" FontWeight="Bold" TextDecorations="{x:Null}"></TextBlock>
+            <TextBlock x:Name="items" TextWrapping="Wrap" Text="No Items" Margin="25,0,256,0" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="48" Width="283" Background="Transparent" Foreground="White" Height="267" FontFamily="../../fonts/#Valium"/>
         </StackPanel>
-        <Button Content="Inventory" HorizontalAlignment="Left" Margin="1175,624,0,0" VerticalAlignment="Top" Width="95" Height="36" Click="Button_Click_4" RenderTransformOrigin="0.897,-0.114" FontFamily="../../fonts/#Valium"  BorderBrush="#ffffff" BorderThickness="2" Foreground="White" Background="#1A1A1A"/>
+        
+        <StackPanel x:Name="rid" Margin="358,134,358,150" Background="#1A1A1A" Opacity="0.9" Visibility="Hidden" >
+            <TextBlock Margin="30" Text="Riddle" FontSize="72" Foreground="White" HorizontalAlignment="Center" FontFamily="../../fonts/#Valium" FontWeight="Bold" TextDecorations="{x:Null}"></TextBlock>
+            <TextBlock x:Name="riddle" TextWrapping="Wrap" Text="The answer is the key to it all" Margin="25,25,10,0" HorizontalAlignment="Center" FontSize="48" Width="529" Background="Transparent" Foreground="White" Height="214" FontFamily="../../fonts/#Valium" TextAlignment="Center"/>
+        </StackPanel>
+        <Button Content="riddle" HorizontalAlignment="Left" Margin="1175,616,0,0" VerticalAlignment="Top" Width="95" Height="36" RenderTransformOrigin="0.897,-0.114" FontFamily="../../fonts/#Valium"  BorderBrush="#ffffff" BorderThickness="2" Foreground="White" Background="#1A1A1A" Click="Button_Click_7"/>
+        <Button Content="Inventory" HorizontalAlignment="Left" Margin="1175,562,0,0" VerticalAlignment="Top" Width="95" Height="36" Click="Button_Click_4" RenderTransformOrigin="0.897,-0.114" FontFamily="../../fonts/#Valium"  BorderBrush="#ffffff" BorderThickness="2" Foreground="White" Background="#1A1A1A"/>
+
     </Grid>
 
- 
+
 
 </UserControl>

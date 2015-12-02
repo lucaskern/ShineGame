@@ -21,7 +21,12 @@ namespace Shine2.Pages.Levels
     public partial class Level1 : UserControl
     {
         DispatcherTimer t1 = new DispatcherTimer();
+        //music and ambience tracks
         MediaPlayer m1 = new MediaPlayer();
+        //environmental/onclick sounds
+        MediaPlayer media = new MediaPlayer();
+
+        bool ridShow = false;
 
         public Level1()
         {
@@ -30,6 +35,7 @@ namespace Shine2.Pages.Levels
             m1.Play();
             m1.MediaEnded += new EventHandler(media_Ended);
         }
+
         //loops audio
         private void media_Ended(object sender, EventArgs e)
         {
@@ -55,6 +61,10 @@ namespace Shine2.Pages.Levels
             winBox.Visibility = System.Windows.Visibility.Visible;
             flash.Visibility = System.Windows.Visibility.Hidden; 
             t1.Stop();
+            m1.Stop();
+
+            media.Open(new Uri(@"../../Assets/Sound/solved2.m4a", UriKind.Relative));
+            media.Play();
         }
 
         private void Grid_MouseMove(object sender, MouseEventArgs e)
@@ -70,6 +80,21 @@ namespace Shine2.Pages.Levels
         private void Button_Click_2(object sender, RoutedEventArgs e)
         {
             Switcher.Switch(new Menu());
+        }
+
+        //riddle toggle
+        private void Button_Click_3(object sender, RoutedEventArgs e)
+        {
+            if (ridShow == false)
+            {
+                rid.Visibility = System.Windows.Visibility.Visible;
+                ridShow = true;
+            }
+            else if (ridShow == true)
+            {
+                rid.Visibility = System.Windows.Visibility.Hidden;
+                ridShow = false;
+            }
         }
 
 

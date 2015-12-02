@@ -28,9 +28,14 @@ Riddle page
 	call property when tick = 5, 3 seconds when tick = 30., etc.
 
 Media Player
+	m1 for sound and ambience tracks
+	media for sound effects
+
 	Make a MediaPlayer object named media, then:
 	media.Open(new Uri(@"../../Assets/Sound/<soundName>.m4a", UriKind.Relative));
         media.Play();
+
+	media.Stop(); should be used for long sounds so that they dont overlap with other levels sounds and so on.
 
 Invisible button
 	for key objects (Subject to change upon implememtation of Inventory)

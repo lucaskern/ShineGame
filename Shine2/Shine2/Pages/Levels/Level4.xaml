@@ -47,5 +47,11 @@
                 </CombinedGeometry>
             </Path.Data>
         </Path>
+
+        <StackPanel x:Name="rid" Margin="358,134,358,150" Background="#1A1A1A" Opacity="0.9" Visibility="Hidden" >
+            <TextBlock Margin="30" Text="Riddle" FontSize="72" Foreground="White" HorizontalAlignment="Center" FontFamily="../../fonts/#Valium" FontWeight="Bold" TextDecorations="{x:Null}"></TextBlock>
+            <TextBlock x:Name="riddle" TextWrapping="Wrap" Text="The world is your cipher" Margin="25,25,10,0" HorizontalAlignment="Center" FontSize="48" Width="529" Background="Transparent" Foreground="White" Height="214" FontFamily="../../fonts/#Valium" TextAlignment="Center"/>
+        </StackPanel>
+        <Button Content="riddle" HorizontalAlignment="Left" Margin="1175,616,0,0" VerticalAlignment="Top" Width="95" Height="36" RenderTransformOrigin="0.897,-0.114" FontFamily="../../fonts/#Valium"  BorderBrush="#ffffff" BorderThickness="2" Foreground="White" Background="#1A1A1A" Click="Button_Click_1" />
     </Grid>
 </UserControl>

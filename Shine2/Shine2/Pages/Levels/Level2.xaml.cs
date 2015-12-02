@@ -24,6 +24,8 @@ namespace Shine2.Pages.Levels
         //bool win = false;
         bool hasKey = false;
         bool invShow = false;
+        bool ridShow = false;
+
         MediaPlayer media = new MediaPlayer();
         MediaPlayer m1 = new MediaPlayer();
 
@@ -65,6 +67,7 @@ namespace Shine2.Pages.Levels
         private void Button_Click_2(object sender, RoutedEventArgs e)
         {
             media.Stop();
+            m1.Stop();
             Switcher.Switch(new Level3Riddle()); 
         }
 
@@ -129,6 +132,21 @@ namespace Shine2.Pages.Levels
         {
             media.Open(new Uri(@"../../Assets/Sound/lighter.m4a", UriKind.Relative));
             media.Play();
+        }
+
+        //riddle toggle
+        private void Button_Click_7(object sender, RoutedEventArgs e)
+        {
+            if (ridShow == false)
+            {
+                rid.Visibility = System.Windows.Visibility.Visible;
+                ridShow = true;
+            }
+            else if (ridShow == true)
+            {
+                rid.Visibility = System.Windows.Visibility.Hidden;
+                ridShow = false;
+            }
         }
     }
 }
