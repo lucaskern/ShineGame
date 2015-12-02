@@ -25,12 +25,16 @@ namespace Shine2.Pages.Levels
         bool hasKey = false;
         bool invShow = false;
         MediaPlayer media = new MediaPlayer();
+        MediaPlayer m1 = new MediaPlayer();
 
        
 
         public Level2()
         {
             InitializeComponent();
+            //play ambiance sound
+            media.Open(new Uri(@"../../Assets/Sound/ambiance2.m4a", UriKind.Relative));
+            media.Play();
         }
 
         //Click key, add to inv and make hidden
@@ -39,6 +43,8 @@ namespace Shine2.Pages.Levels
             //play grab sound
             media.Open(new Uri(@"../../Assets/Sound/grab2.m4a", UriKind.Relative));
             media.Play();
+
+
 
             //Hide key, register as holding
             key.Visibility = System.Windows.Visibility.Hidden;
