@@ -55,7 +55,13 @@ namespace Shine2.Pages.Levels
 
                 left.Text = leftNumString;
             }
-            else
+            else if (leftNum == 9)
+            {
+                leftNum = 0;
+                leftNumString = leftNum.ToString();
+
+                left.Text = leftNumString;
+            } else
             {
 
             }
@@ -72,7 +78,13 @@ namespace Shine2.Pages.Levels
 
                 left.Text = leftNumString;
             }
-            else
+            else if (leftNum == 0)
+            {
+                leftNum = 9;
+                leftNumString = leftNum.ToString();
+
+                left.Text = leftNumString;
+            } else
             {
 
             }
@@ -88,10 +100,14 @@ namespace Shine2.Pages.Levels
 
                 center.Text = centerNumString;
             }
-            else
+            else if (centerNum == 9)
             {
+                centerNum = 0;
+                centerNumString = centerNum.ToString();
 
+                center.Text = centerNumString;
             }
+            else { }
         }
 
         //center Down
@@ -104,10 +120,14 @@ namespace Shine2.Pages.Levels
 
                 center.Text = centerNumString;
             }
-            else
+            else if (centerNum == 0)
             {
+                centerNum = 9;
+                centerNumString = centerNum.ToString();
 
+                center.Text = centerNumString;
             }
+            else { }
         }
 
         //right Up
@@ -120,10 +140,14 @@ namespace Shine2.Pages.Levels
 
                 right.Text = rightNumString;
             }
-            else
+            else if (rightNum == 9)
             {
+                rightNum = 0;
+                rightNumString = rightNum.ToString();
 
+                right.Text = rightNumString;
             }
+            else { }
         }
 
         //right Down
@@ -136,10 +160,14 @@ namespace Shine2.Pages.Levels
 
                 right.Text = rightNumString;
             }
-            else
+            else if (rightNum == 0)
             {
+                rightNum = 9;
+                rightNumString = rightNum.ToString();
 
+                right.Text = rightNumString;
             }
+            else { }
         }
 
         //check combo
