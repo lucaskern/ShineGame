@@ -54,6 +54,9 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Pages\Levels\hazard.xaml.cs">
+      <DependentUpon>hazard.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Pages\Levels\Level4.xaml.cs">
       <DependentUpon>Level4.xaml</DependentUpon>
     </Compile>
@@ -94,6 +97,10 @@
       <DependentUpon>Safe.xaml</DependentUpon>
     </Compile>
     <Compile Include="Switcher.cs" />
+    <Page Include="Pages\Levels\hazard.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Pages\Levels\Level4.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -208,6 +215,9 @@
     <Resource Include="Assets\forest.png" />
     <Resource Include="Assets\screen3Open.png" />
     <Resource Include="Assets\screenFinal.png" />
+    <Resource Include="Assets\alert.png" />
+    <Resource Include="Assets\happy.png" />
+    <Resource Include="Assets\mad.png" />
     <Content Include="Assets\Sound\ambiance.m4a" />
     <Content Include="Assets\Sound\ambiance2.m4a" />
     <Content Include="Assets\Sound\clock.m4a" />

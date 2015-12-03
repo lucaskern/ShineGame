@@ -197,3 +197,5 @@ C:\Users\Lkvideorang\Desktop\I3Project\ShineGame\Shine2\Shine2\obj\Debug\Pages\L
 C:\Users\Lkvideorang\Desktop\I3Project\ShineGame\Shine2\Shine2\obj\Debug\Pages\Levels\Level4.g.cs
 C:\Users\Lkvideorang\Desktop\I3Project\ShineGame\Shine2\Shine2\obj\Debug\Pages\Levels\Level4Riddle.g.cs
 C:\Users\Lkvideorang\Desktop\I3Project\ShineGame\Shine2\Shine2\obj\Debug\Pages\Levels\Level5.g.cs
+C:\Users\Lkvideorang\Desktop\I3Project\ShineGame\Shine2\Shine2\obj\Debug\Pages\Levels\hazard.baml
+C:\Users\Lkvideorang\Desktop\I3Project\ShineGame\Shine2\Shine2\obj\Debug\Pages\Levels\hazard.g.cs
