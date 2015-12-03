@@ -35,6 +35,7 @@ namespace Shine2.Pages
             Switcher.Switch(new Menu());
         }
 
+        //L1
         private void L1_Click(object sender, RoutedEventArgs e)
         {
             Switcher.Switch(new Level1Riddle());
@@ -52,16 +53,13 @@ namespace Shine2.Pages
             Switcher.Switch(new Level3Riddle());
         }
 
-        private void Button_Click_3(object sender, RoutedEventArgs e)
-        {
-            Switcher.Switch(new Light());
-        }
-
+        //safe test page
         private void Button_Click_4(object sender, RoutedEventArgs e)
         {
             Switcher.Switch(new Safe());
         }
 
+        //L4
         private void Button_Click_5(object sender, RoutedEventArgs e)
         {
             Switcher.Switch(new Level4Riddle());

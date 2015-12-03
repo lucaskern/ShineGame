@@ -19,10 +19,9 @@ namespace Shine2.Pages.Levels
     /// </summary>
     public partial class Level3 : UserControl
     {
-        //bool used to determine if the player has won (unused)
-        //bool win = false;
         private MediaPlayer media = new MediaPlayer();
 
+        //is rid context menu showing
         bool ridShow = false;
 
         public Level3()
@@ -54,6 +53,7 @@ namespace Shine2.Pages.Levels
             
         }
 
+        //riddle show toggle
         private void Button_Click_3(object sender, RoutedEventArgs e)
         {
             if (ridShow == false)

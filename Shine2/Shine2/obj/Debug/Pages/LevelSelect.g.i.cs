@@ -113,7 +113,7 @@ namespace Shine2.Pages {
             case 5:
             
             #line 38 "..\..\..\Pages\LevelSelect.xaml"
-            ((System.Windows.Controls.Button)(target)).Click += new System.Windows.RoutedEventHandler(this.Button_Click_3);
+            ((System.Windows.Controls.Button)(target)).Click += new System.Windows.RoutedEventHandler(this.Button_Click_4);
             
             #line default
             #line hidden
@@ -121,14 +121,6 @@ namespace Shine2.Pages {
             case 6:
             
             #line 39 "..\..\..\Pages\LevelSelect.xaml"
-            ((System.Windows.Controls.Button)(target)).Click += new System.Windows.RoutedEventHandler(this.Button_Click_4);
-            
-            #line default
-            #line hidden
-            return;
-            case 7:
-            
-            #line 40 "..\..\..\Pages\LevelSelect.xaml"
             ((System.Windows.Controls.Button)(target)).Click += new System.Windows.RoutedEventHandler(this.Button_Click_5);
             
             #line default

@@ -20,12 +20,14 @@ namespace Shine2.Pages.Levels
     /// </summary>
     public partial class Level2 : UserControl
     {
-        //bool used to determine if the player has won (unused)
-        //bool win = false;
+        //is key in inv
         bool hasKey = false;
+        //is inv showing
         bool invShow = false;
+        //is rid showing
         bool ridShow = false;
 
+        //media for music and sounds
         MediaPlayer media = new MediaPlayer();
         MediaPlayer m1 = new MediaPlayer();
 
@@ -34,7 +36,7 @@ namespace Shine2.Pages.Levels
         public Level2()
         {
             InitializeComponent();
-            //play ambiance sound
+            //play ambience sound
             m1.Open(new Uri(@"../../Assets/Sound/ambiance2.m4a", UriKind.Relative));
             m1.Play();
         }
@@ -80,11 +82,12 @@ namespace Shine2.Pages.Levels
 
             } else if (hasKey == true)
             {
+                //change image to desk open
                 back.Source = new BitmapImage(new Uri(@"../../Assets/deskOpen.png", UriKind.Relative));
-
+                //play drawer sound
                 media.Open(new Uri(@"../../Assets/Sound/drawerOpen.m4a", UriKind.Relative));
                 media.Play();
-
+                //make letter visible
                 letter.Visibility = System.Windows.Visibility.Visible;
             }
         }
@@ -106,6 +109,7 @@ namespace Shine2.Pages.Levels
 
         }
 
+        //win state, shtuff
         private void letter_Click(object sender, RoutedEventArgs e)
         {
             winBox.Visibility = System.Windows.Visibility.Visible;
@@ -115,6 +119,7 @@ namespace Shine2.Pages.Levels
             flash.Visibility = System.Windows.Visibility.Hidden;
         }
 
+        //move flashlight circle
         private void Grid_MouseMove(object sender, MouseEventArgs e)
         {
             circle.Center = e.GetPosition((IInputElement)sender);

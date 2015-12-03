@@ -20,38 +20,37 @@ namespace Shine2.Pages
     /// </summary>
     public partial class Menu : UserControl
     {
-
-        public MediaPlayer media = new MediaPlayer();
-
+        //media player
+        public MediaPlayer m1 = new MediaPlayer();
 
         public Menu()
         {
             InitializeComponent();
 
             //Play song, call method to repeat when song ends
-            media.Open(new Uri(@"../../Assets/Sound/song1.m4a", UriKind.Relative));
-            media.Play();
-            media.MediaEnded += new EventHandler(media_Ended);
+            m1.Open(new Uri(@"../../Assets/Sound/song1.m4a", UriKind.Relative));
+            m1.Play();
+            m1.MediaEnded += new EventHandler(media_Ended);
         }
 
         //loops audio
         private void media_Ended(object sender, EventArgs e)
         {
-            media.Position = TimeSpan.FromSeconds(0);
-            media.Play();
+            m1.Position = TimeSpan.FromSeconds(0);
+            m1.Play();
         }
 
         //stop audio and open level select
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            media.Stop();
+            m1.Stop();
             Switcher.Switch(new LevelSelect());
         }
 
         //stop audio and begin Level 1
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
-           media.Stop();
+           m1.Stop();
            //must specify the levels folder when going from a page in Menu to a page in Levels
            Switcher.Switch(new Levels.Level1Riddle());
         }

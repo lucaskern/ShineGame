@@ -24,7 +24,7 @@ namespace Shine2.Pages
         //New timer and media player
         DispatcherTimer t1 = new DispatcherTimer();
         DispatcherTimer t2 = new DispatcherTimer();
-        private MediaPlayer media = new MediaPlayer();
+        private MediaPlayer m1 = new MediaPlayer();
 
         //int used to count timer ticks
         int num = 0;
@@ -33,13 +33,14 @@ namespace Shine2.Pages
         public Intro()
         {
             //play music
-            media.Open(new Uri(@"../../Assets/Sound/intro.m4a", UriKind.Relative));
-            media.Play();
+            m1.Open(new Uri(@"../../Assets/Sound/intro.m4a", UriKind.Relative));
+            m1.Play();
 
             //set timer interval to 1/10 of a second, call method on tick, start timer
             t1.Interval = TimeSpan.FromSeconds(.1);
             t1.Tick += Timer_Tick;
             t1.Start();
+
             //set timer interval to 1 second, call method on tick, start timer
             t2.Interval = TimeSpan.FromSeconds(1);
             t2.Tick += Timer2_Tick;
@@ -49,19 +50,22 @@ namespace Shine2.Pages
             InitializeComponent();
         }
 
+        //time the page switch so that 
         public void Timer_Tick(object sender, EventArgs e)
         {
             if (num == 460)
             {
                 Switcher.Switch(new Menu());
                 t1.Stop();
-                media.Stop();
+                m1.Stop();
             }
            
             //increase tick #
             num++;
         }
 
+
+        //every second either make text invisible or visible, a flashing effect
         public void Timer2_Tick(object sender, EventArgs e)
         {
             if (numSec % 2 == 0)
@@ -74,17 +78,15 @@ namespace Shine2.Pages
                 bottom.Opacity = 0;
                 numSec++;
             }
-          
-
-           
         }
 
+        //end all timers and media, change page
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             Switcher.Switch(new Menu());
             t1.Stop();
             t2.Stop();
-            media.Stop();
+            m1.Stop();
         }
     }
 }

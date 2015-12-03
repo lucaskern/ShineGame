@@ -22,8 +22,10 @@ namespace Shine2.Pages.Levels
         // ambience/music
         MediaPlayer m1 = new MediaPlayer();
 
+        //is rid showing
         bool ridShow = false;
-
+        
+        //play music
         public Level4()
         {
             InitializeComponent();
@@ -31,6 +33,7 @@ namespace Shine2.Pages.Levels
             m1.Play();
             m1.MediaEnded += new EventHandler(media_Ended);
         }
+
         //loops audio
         private void media_Ended(object sender, EventArgs e)
         {
@@ -38,17 +41,20 @@ namespace Shine2.Pages.Levels
             m1.Play();
         }
 
+        //go to the safe
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             Switcher.Switch(new Safe());
             m1.Stop();
         }
 
+        //move flashlight
         private void Grid_MouseMove(object sender, MouseEventArgs e)
         {
             circle.Center = e.GetPosition((IInputElement)sender);
         }
 
+        //riddle toggle
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
             if (ridShow == false)

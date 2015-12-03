@@ -20,19 +20,23 @@ namespace Shine2.Pages.Levels
     /// </summary>
     public partial class Level1 : UserControl
     {
+        //timer
         DispatcherTimer t1 = new DispatcherTimer();
         //music and ambience tracks
         MediaPlayer m1 = new MediaPlayer();
         //environmental/onclick sounds
         MediaPlayer media = new MediaPlayer();
 
+        //is the riddle context menu open
         bool ridShow = false;
 
+        //play music
         public Level1()
         {
             InitializeComponent();
             m1.Open(new Uri(@"../../Assets/Sound/ambience.m4a", UriKind.Relative));
             m1.Play();
+            //on music end, call looping method
             m1.MediaEnded += new EventHandler(media_Ended);
         }
 
@@ -43,6 +47,7 @@ namespace Shine2.Pages.Levels
             m1.Play();
         }
 
+        //door click, load opened door image and start 2 second timer
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             open.Visibility = System.Windows.Visibility.Visible;
@@ -56,6 +61,7 @@ namespace Shine2.Pages.Levels
             
         }
 
+        //Door open sound is over, win state
         public void Timer_Tick(object sender, EventArgs e)
         {
             winBox.Visibility = System.Windows.Visibility.Visible;
@@ -67,16 +73,19 @@ namespace Shine2.Pages.Levels
             media.Play();
         }
 
+        //move flashlight circle
         private void Grid_MouseMove(object sender, MouseEventArgs e)
         {
             circle.Center = e.GetPosition((IInputElement)sender);
         }
 
+        //go to level 2
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
             Switcher.Switch(new Level2Riddle());
         }
 
+        //got to menu
         private void Button_Click_2(object sender, RoutedEventArgs e)
         {
             Switcher.Switch(new Menu());
@@ -96,7 +105,5 @@ namespace Shine2.Pages.Levels
                 ridShow = false;
             }
         }
-
-
     }
 }
