@@ -8,15 +8,19 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/sound/alert.m4a")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/sound/ambiance.m4a")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/sound/ambiance2.m4a")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/sound/ambience.m4a")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/sound/clock.m4a")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/sound/draweropen.m4a")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/sound/grab.m4a")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/sound/grab2.m4a")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/sound/intro.m4a")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/sound/lighter.m4a")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/sound/mad.m4a")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/sound/riddle.m4a")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/sound/snore.m4a")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/sound/solved.m4a")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/sound/solved2.m4a")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/sound/song1.m4a")]
