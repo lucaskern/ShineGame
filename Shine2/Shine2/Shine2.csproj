@@ -34,6 +34,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>shineIcon2.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -204,7 +207,8 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <Resource Include="Assets\banana.jpg" />
+    <Resource Include="shineIcon2.ico" />
+    <Resource Include="shineIcon.ico" />
     <Resource Include="Assets\screen2.png" />
     <Resource Include="Assets\screen3.png" />
     <Resource Include="Assets\key.png" />
@@ -218,6 +222,10 @@
     <Resource Include="Assets\alert.png" />
     <Resource Include="Assets\happy.png" />
     <Resource Include="Assets\mad.png" />
+    <Resource Include="Assets\shineIcon.ico" />
+    <Resource Include="Assets\shineIcon.png" />
+    <Resource Include="Assets\shineIcon2.ico" />
+    <Resource Include="Assets\shineIcon2.png" />
     <Content Include="Assets\Sound\alert.m4a" />
     <Content Include="Assets\Sound\ambiance.m4a" />
     <Content Include="Assets\Sound\ambiance2.m4a" />
