@@ -1,0 +1,94 @@
+C:\Users\Lkvideorang\Desktop\I3Project\ShineGame\ShineGame\ShineGame\bin\Debug\sky.jpg
+C:\Users\Lkvideorang\Desktop\I3Project\ShineGame\ShineGame\ShineGame\bin\Debug\castle.png
+C:\Users\Lkvideorang\Desktop\I3Project\ShineGame\ShineGame\ShineGame\bin\Debug\treasure.png
+C:\Users\Lkvideorang\Desktop\I3Project\ShineGame\ShineGame\ShineGame\bin\Debug\mountains.png
+C:\Users\Lkvideorang\Desktop\I3Project\ShineGame\ShineGame\ShineGame\bin\Debug\forest.png
+C:\Users\Lkvideorang\Desktop\I3Project\ShineGame\ShineGame\ShineGame\bin\Debug\ShineGame.exe
+C:\Users\Lkvideorang\Desktop\I3Project\ShineGame\ShineGame\ShineGame\bin\Debug\ShineGame.pdb
+C:\Users\Lkvideorang\Desktop\I3Project\ShineGame\ShineGame\ShineGame\obj\Debug\ShineGame.csprojResolveAssemblyReference.cache
+C:\Users\Lkvideorang\Desktop\I3Project\ShineGame\ShineGame\ShineGame\obj\Debug\Menu\L1Riddle.baml
+C:\Users\Lkvideorang\Desktop\I3Project\ShineGame\ShineGame\ShineGame\obj\Debug\Menu\Level1.baml
+C:\Users\Lkvideorang\Desktop\I3Project\ShineGame\ShineGame\ShineGame\obj\Debug\Menu\LevelSelect.baml
+C:\Users\Lkvideorang\Desktop\I3Project\ShineGame\ShineGame\ShineGame\obj\Debug\Menu\Menu.baml
+C:\Users\Lkvideorang\Desktop\I3Project\ShineGame\ShineGame\ShineGame\obj\Debug\Menu\Title.baml
+C:\Users\Lkvideorang\Desktop\I3Project\ShineGame\ShineGame\ShineGame\obj\Debug\PageSwitcher.baml
+C:\Users\Lkvideorang\Desktop\I3Project\ShineGame\ShineGame\ShineGame\obj\Debug\Menu\L1Riddle.g.cs
+C:\Users\Lkvideorang\Desktop\I3Project\ShineGame\ShineGame\ShineGame\obj\Debug\Menu\Level1.g.cs
+C:\Users\Lkvideorang\Desktop\I3Project\ShineGame\ShineGame\ShineGame\obj\Debug\Menu\LevelSelect.g.cs
+C:\Users\Lkvideorang\Desktop\I3Project\ShineGame\ShineGame\ShineGame\obj\Debug\Menu\Menu.g.cs
+C:\Users\Lkvideorang\Desktop\I3Project\ShineGame\ShineGame\ShineGame\obj\Debug\Menu\Title.g.cs
+C:\Users\Lkvideorang\Desktop\I3Project\ShineGame\ShineGame\ShineGame\obj\Debug\PageSwitcher.g.cs
+C:\Users\Lkvideorang\Desktop\I3Project\ShineGame\ShineGame\ShineGame\obj\Debug\App.g.cs
+C:\Users\Lkvideorang\Desktop\I3Project\ShineGame\ShineGame\ShineGame\obj\Debug\ShineGame_Content.g.cs
+C:\Users\Lkvideorang\Desktop\I3Project\ShineGame\ShineGame\ShineGame\obj\Debug\ShineGame_MarkupCompile.cache
+C:\Users\Lkvideorang\Desktop\I3Project\ShineGame\ShineGame\ShineGame\obj\Debug\ShineGame.g.resources
+C:\Users\Lkvideorang\Desktop\I3Project\ShineGame\ShineGame\ShineGame\obj\Debug\ShineGame.Properties.Resources.resources
+C:\Users\Lkvideorang\Desktop\I3Project\ShineGame\ShineGame\ShineGame\obj\Debug\ShineGame.csproj.GenerateResource.Cache
+C:\Users\Lkvideorang\Desktop\I3Project\ShineGame\ShineGame\ShineGame\obj\Debug\ShineGame.exe
+C:\Users\Lkvideorang\Desktop\I3Project\ShineGame\ShineGame\ShineGame\obj\Debug\ShineGame.pdb
+C:\Users\Owner\Desktop 4\IDAPS3\ShineGame\ShineGame\ShineGame\obj\Debug\ShineGame.exe
+C:\Users\Owner\Desktop 4\IDAPS3\ShineGame\ShineGame\ShineGame\obj\Debug\ShineGame.pdb
+C:\Users\Owner\Desktop 4\IDAPS3\ShineGame\ShineGame\ShineGame\bin\Debug\sky.jpg
+C:\Users\Owner\Desktop 4\IDAPS3\ShineGame\ShineGame\ShineGame\bin\Debug\castle.png
+C:\Users\Owner\Desktop 4\IDAPS3\ShineGame\ShineGame\ShineGame\bin\Debug\treasure.png
+C:\Users\Owner\Desktop 4\IDAPS3\ShineGame\ShineGame\ShineGame\bin\Debug\mountains.png
+C:\Users\Owner\Desktop 4\IDAPS3\ShineGame\ShineGame\ShineGame\bin\Debug\forest.png
+C:\Users\Owner\Desktop 4\IDAPS3\ShineGame\ShineGame\ShineGame\bin\Debug\ShineGame.exe
+C:\Users\Owner\Desktop 4\IDAPS3\ShineGame\ShineGame\ShineGame\bin\Debug\ShineGame.pdb
+C:\Users\Owner\Desktop 4\IDAPS3\ShineGame\ShineGame\ShineGame\obj\Debug\ShineGame.csprojResolveAssemblyReference.cache
+C:\Users\Owner\Desktop 4\IDAPS3\ShineGame\ShineGame\ShineGame\obj\Debug\Menu\intro.baml
+C:\Users\Owner\Desktop 4\IDAPS3\ShineGame\ShineGame\ShineGame\obj\Debug\Menu\L1Riddle.baml
+C:\Users\Owner\Desktop 4\IDAPS3\ShineGame\ShineGame\ShineGame\obj\Debug\Menu\Level1.baml
+C:\Users\Owner\Desktop 4\IDAPS3\ShineGame\ShineGame\ShineGame\obj\Debug\Menu\LevelSelect.baml
+C:\Users\Owner\Desktop 4\IDAPS3\ShineGame\ShineGame\ShineGame\obj\Debug\Menu\Menu.baml
+C:\Users\Owner\Desktop 4\IDAPS3\ShineGame\ShineGame\ShineGame\obj\Debug\Menu\Title.baml
+C:\Users\Owner\Desktop 4\IDAPS3\ShineGame\ShineGame\ShineGame\obj\Debug\PageSwitcher.baml
+C:\Users\Owner\Desktop 4\IDAPS3\ShineGame\ShineGame\ShineGame\obj\Debug\Menu\intro.g.cs
+C:\Users\Owner\Desktop 4\IDAPS3\ShineGame\ShineGame\ShineGame\obj\Debug\Menu\L1Riddle.g.cs
+C:\Users\Owner\Desktop 4\IDAPS3\ShineGame\ShineGame\ShineGame\obj\Debug\Menu\Level1.g.cs
+C:\Users\Owner\Desktop 4\IDAPS3\ShineGame\ShineGame\ShineGame\obj\Debug\Menu\LevelSelect.g.cs
+C:\Users\Owner\Desktop 4\IDAPS3\ShineGame\ShineGame\ShineGame\obj\Debug\Menu\Menu.g.cs
+C:\Users\Owner\Desktop 4\IDAPS3\ShineGame\ShineGame\ShineGame\obj\Debug\Menu\Title.g.cs
+C:\Users\Owner\Desktop 4\IDAPS3\ShineGame\ShineGame\ShineGame\obj\Debug\PageSwitcher.g.cs
+C:\Users\Owner\Desktop 4\IDAPS3\ShineGame\ShineGame\ShineGame\obj\Debug\App.g.cs
+C:\Users\Owner\Desktop 4\IDAPS3\ShineGame\ShineGame\ShineGame\obj\Debug\ShineGame_Content.g.cs
+C:\Users\Owner\Desktop 4\IDAPS3\ShineGame\ShineGame\ShineGame\obj\Debug\ShineGame_MarkupCompile.cache
+C:\Users\Owner\Desktop 4\IDAPS3\ShineGame\ShineGame\ShineGame\obj\Debug\ShineGame.g.resources
+C:\Users\Owner\Desktop 4\IDAPS3\ShineGame\ShineGame\ShineGame\obj\Debug\ShineGame.Properties.Resources.resources
+C:\Users\Owner\Desktop 4\IDAPS3\ShineGame\ShineGame\ShineGame\obj\Debug\ShineGame.csproj.GenerateResource.Cache
+C:\Users\Owner\Desktop 4\IDAPS3\ShineGame\ShineGame\ShineGame\obj\Debug\Menu\L2Riddle.baml
+C:\Users\Owner\Desktop 4\IDAPS3\ShineGame\ShineGame\ShineGame\obj\Debug\Menu\L2Riddle.g.cs
+C:\Users\Owner\Desktop 4\IDAPS3\ShineGame\ShineGame\ShineGame\bin\Debug\desk.png
+C:\Users\harrk_000\Documents\GitHub\ShineGame\ShineGame\ShineGame\obj\Debug\ShineGame.exe
+C:\Users\harrk_000\Documents\GitHub\ShineGame\ShineGame\ShineGame\obj\Debug\ShineGame.pdb
+C:\Users\harrk_000\Documents\GitHub\ShineGame\ShineGame\ShineGame\bin\Debug\desk.png
+C:\Users\harrk_000\Documents\GitHub\ShineGame\ShineGame\ShineGame\bin\Debug\sky.jpg
+C:\Users\harrk_000\Documents\GitHub\ShineGame\ShineGame\ShineGame\bin\Debug\castle.png
+C:\Users\harrk_000\Documents\GitHub\ShineGame\ShineGame\ShineGame\bin\Debug\treasure.png
+C:\Users\harrk_000\Documents\GitHub\ShineGame\ShineGame\ShineGame\bin\Debug\mountains.png
+C:\Users\harrk_000\Documents\GitHub\ShineGame\ShineGame\ShineGame\bin\Debug\forest.png
+C:\Users\harrk_000\Documents\GitHub\ShineGame\ShineGame\ShineGame\bin\Debug\ShineGame.exe
+C:\Users\harrk_000\Documents\GitHub\ShineGame\ShineGame\ShineGame\bin\Debug\ShineGame.pdb
+C:\Users\harrk_000\Documents\GitHub\ShineGame\ShineGame\ShineGame\obj\Debug\ShineGame.csprojResolveAssemblyReference.cache
+C:\Users\harrk_000\Documents\GitHub\ShineGame\ShineGame\ShineGame\obj\Debug\Menu\intro.baml
+C:\Users\harrk_000\Documents\GitHub\ShineGame\ShineGame\ShineGame\obj\Debug\Menu\L1Riddle.baml
+C:\Users\harrk_000\Documents\GitHub\ShineGame\ShineGame\ShineGame\obj\Debug\Menu\L2Riddle.baml
+C:\Users\harrk_000\Documents\GitHub\ShineGame\ShineGame\ShineGame\obj\Debug\Menu\Level1.baml
+C:\Users\harrk_000\Documents\GitHub\ShineGame\ShineGame\ShineGame\obj\Debug\Menu\LevelSelect.baml
+C:\Users\harrk_000\Documents\GitHub\ShineGame\ShineGame\ShineGame\obj\Debug\Menu\Menu.baml
+C:\Users\harrk_000\Documents\GitHub\ShineGame\ShineGame\ShineGame\obj\Debug\Menu\Title.baml
+C:\Users\harrk_000\Documents\GitHub\ShineGame\ShineGame\ShineGame\obj\Debug\PageSwitcher.baml
+C:\Users\harrk_000\Documents\GitHub\ShineGame\ShineGame\ShineGame\obj\Debug\Menu\intro.g.cs
+C:\Users\harrk_000\Documents\GitHub\ShineGame\ShineGame\ShineGame\obj\Debug\Menu\L1Riddle.g.cs
+C:\Users\harrk_000\Documents\GitHub\ShineGame\ShineGame\ShineGame\obj\Debug\Menu\L2Riddle.g.cs
+C:\Users\harrk_000\Documents\GitHub\ShineGame\ShineGame\ShineGame\obj\Debug\Menu\Level1.g.cs
+C:\Users\harrk_000\Documents\GitHub\ShineGame\ShineGame\ShineGame\obj\Debug\Menu\LevelSelect.g.cs
+C:\Users\harrk_000\Documents\GitHub\ShineGame\ShineGame\ShineGame\obj\Debug\Menu\Menu.g.cs
+C:\Users\harrk_000\Documents\GitHub\ShineGame\ShineGame\ShineGame\obj\Debug\Menu\Title.g.cs
+C:\Users\harrk_000\Documents\GitHub\ShineGame\ShineGame\ShineGame\obj\Debug\PageSwitcher.g.cs
+C:\Users\harrk_000\Documents\GitHub\ShineGame\ShineGame\ShineGame\obj\Debug\App.g.cs
+C:\Users\harrk_000\Documents\GitHub\ShineGame\ShineGame\ShineGame\obj\Debug\ShineGame_Content.g.cs
+C:\Users\harrk_000\Documents\GitHub\ShineGame\ShineGame\ShineGame\obj\Debug\ShineGame_MarkupCompile.cache
+C:\Users\harrk_000\Documents\GitHub\ShineGame\ShineGame\ShineGame\obj\Debug\ShineGame.g.resources
+C:\Users\harrk_000\Documents\GitHub\ShineGame\ShineGame\ShineGame\obj\Debug\ShineGame.Properties.Resources.resources
+C:\Users\harrk_000\Documents\GitHub\ShineGame\ShineGame\ShineGame\obj\Debug\ShineGame.csproj.GenerateResource.Cache

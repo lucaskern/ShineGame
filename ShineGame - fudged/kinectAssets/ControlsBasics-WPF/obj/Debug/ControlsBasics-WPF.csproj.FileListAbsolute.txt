@@ -1,0 +1,39 @@
+C:\Users\harrk_000\Documents\IGME 201\ControlsBasics-WPF\AnyCPU.Debug\KinectInteraction170_32.dll
+C:\Users\harrk_000\Documents\IGME 201\ControlsBasics-WPF\AnyCPU.Debug\KinectInteraction170_64.dll
+C:\Users\harrk_000\Documents\IGME 201\ControlsBasics-WPF\AnyCPU.Debug\ControlsBasics-WPF.exe
+C:\Users\harrk_000\Documents\IGME 201\ControlsBasics-WPF\AnyCPU.Debug\ControlsBasics-WPF.pdb
+C:\Users\harrk_000\Documents\IGME 201\ControlsBasics-WPF\AnyCPU.Debug\Microsoft.Kinect.Toolkit.Controls.dll
+C:\Users\harrk_000\Documents\IGME 201\ControlsBasics-WPF\AnyCPU.Debug\Microsoft.Kinect.Toolkit.dll
+C:\Users\harrk_000\Documents\IGME 201\ControlsBasics-WPF\AnyCPU.Debug\Microsoft.Kinect.Toolkit.Interaction.dll
+C:\Users\harrk_000\Documents\IGME 201\ControlsBasics-WPF\AnyCPU.Debug\Microsoft.Kinect.Toolkit.Controls.pdb
+C:\Users\harrk_000\Documents\IGME 201\ControlsBasics-WPF\AnyCPU.Debug\Microsoft.Kinect.Toolkit.pdb
+C:\Users\harrk_000\Documents\IGME 201\ControlsBasics-WPF\obj\Debug\ControlsBasics-WPF.csprojResolveAssemblyReference.cache
+C:\Users\harrk_000\Documents\IGME 201\ControlsBasics-WPF\obj\Debug\Common\StandardStyles.baml
+C:\Users\harrk_000\Documents\IGME 201\ControlsBasics-WPF\obj\Debug\SelectionDisplay.baml
+C:\Users\harrk_000\Documents\IGME 201\ControlsBasics-WPF\obj\Debug\App.baml
+C:\Users\harrk_000\Documents\IGME 201\ControlsBasics-WPF\obj\Debug\MainWindow.g.cs
+C:\Users\harrk_000\Documents\IGME 201\ControlsBasics-WPF\obj\Debug\SelectionDisplay.g.cs
+C:\Users\harrk_000\Documents\IGME 201\ControlsBasics-WPF\obj\Debug\App.g.cs
+C:\Users\harrk_000\Documents\IGME 201\ControlsBasics-WPF\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\harrk_000\Documents\IGME 201\ControlsBasics-WPF\obj\Debug\ControlsBasics-WPF_MarkupCompile.cache
+C:\Users\harrk_000\Documents\IGME 201\ControlsBasics-WPF\obj\Debug\ControlsBasics-WPF_MarkupCompile.lref
+C:\Users\harrk_000\Documents\IGME 201\ControlsBasics-WPF\obj\Debug\MainWindow.baml
+C:\Users\harrk_000\Documents\IGME 201\ControlsBasics-WPF\obj\Debug\ControlsBasics-WPF.g.resources
+C:\Users\harrk_000\Documents\IGME 201\ControlsBasics-WPF\obj\Debug\Microsoft.Samples.Kinect.ControlsBasics.Properties.Resources.resources
+C:\Users\harrk_000\Documents\IGME 201\ControlsBasics-WPF\obj\Debug\ControlsBasics-WPF.csproj.GenerateResource.Cache
+C:\Users\harrk_000\Documents\IGME 201\ControlsBasics-WPF\obj\Debug\ControlsBasics-WPF.exe
+C:\Users\harrk_000\Documents\IGME 201\ControlsBasics-WPF\obj\Debug\ControlsBasics-WPF.pdb
+C:\Users\harrk_000\Documents\GitHub\ShineGame\kinectAssets\ControlsBasics-WPF\obj\Debug\ControlsBasics-WPF.exe
+C:\Users\harrk_000\Documents\GitHub\ShineGame\kinectAssets\ControlsBasics-WPF\obj\Debug\ControlsBasics-WPF.pdb
+C:\Users\Conner\Documents\gitShine\ShineGame\kinectAssets\ControlsBasics-WPF\obj\Debug\ControlsBasics-WPF.exe
+C:\Users\Conner\Documents\gitShine\ShineGame\kinectAssets\ControlsBasics-WPF\obj\Debug\ControlsBasics-WPF.pdb
+C:\Users\Conner\Documents\gitShine\ShineGame\kinectAssets\ControlsBasics-WPF\obj\Debug\ControlsBasics-WPF.csprojResolveAssemblyReference.cache
+C:\Users\Conner\Documents\gitShine\ShineGame\kinectAssets\ControlsBasics-WPF\obj\Debug\Common\StandardStyles.baml
+C:\Users\Conner\Documents\gitShine\ShineGame\kinectAssets\ControlsBasics-WPF\obj\Debug\SelectionDisplay.baml
+C:\Users\Conner\Documents\gitShine\ShineGame\kinectAssets\ControlsBasics-WPF\obj\Debug\App.baml
+C:\Users\Conner\Documents\gitShine\ShineGame\kinectAssets\ControlsBasics-WPF\obj\Debug\MainWindow.g.cs
+C:\Users\Conner\Documents\gitShine\ShineGame\kinectAssets\ControlsBasics-WPF\obj\Debug\SelectionDisplay.g.cs
+C:\Users\Conner\Documents\gitShine\ShineGame\kinectAssets\ControlsBasics-WPF\obj\Debug\App.g.cs
+C:\Users\Conner\Documents\gitShine\ShineGame\kinectAssets\ControlsBasics-WPF\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Conner\Documents\gitShine\ShineGame\kinectAssets\ControlsBasics-WPF\obj\Debug\ControlsBasics-WPF_MarkupCompile.cache
+C:\Users\Conner\Documents\gitShine\ShineGame\kinectAssets\ControlsBasics-WPF\obj\Debug\ControlsBasics-WPF_MarkupCompile.lref

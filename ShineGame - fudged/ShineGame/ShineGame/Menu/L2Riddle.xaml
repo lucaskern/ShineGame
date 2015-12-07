@@ -1,0 +1,14 @@
+﻿<UserControl x:Class="WPFPageSwitch.Menu.L2Riddle"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="750" d:DesignWidth="1000">
+    <Grid>
+        <Rectangle Fill="#FF0D0D0D" HorizontalAlignment="Left" Height="750.4" Margin="10,0,0,0" Stroke="Black" VerticalAlignment="Top" Width="990"/>
+        <TextBlock HorizontalAlignment="Left" Margin="165.2,28,0,0" TextWrapping="Wrap" Text="Solve The Riddle" VerticalAlignment="Top" FontSize="100" FontFamily="MeathFLF" Foreground="White" FontWeight="Bold"/>
+        <TextBlock HorizontalAlignment="Left" Margin="82,354.4,0,0" TextWrapping="Wrap" Text="The answer is the key to it all" VerticalAlignment="Top" FontSize="72" FontFamily="Lemon/Milk" Foreground="White" FontWeight="Bold" TextAlignment="Center"/>
+
+    </Grid>
+</UserControl>

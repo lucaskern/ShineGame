@@ -1,0 +1,86 @@
+﻿<UserControl x:Class="Shine2.Pages.Levels.Level2"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             Height="720" Width="1280" >
+    <UserControl.Resources>
+        <!-- This style is used for buttons, to remove the WPF default 'animated' mouse over effect -->
+        <Style x:Key="MyButtonStyle" TargetType="Button">
+            <Setter Property="OverridesDefaultStyle" Value="True"/>
+            <Setter Property="Margin" Value="5"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Name="border" 
+                            BorderThickness="0"
+                            Padding="4,2" 
+                            BorderBrush="DarkGray" 
+                            CornerRadius="3" 
+                            Background="{TemplateBinding Background}">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="border" Property="BorderBrush" Value="Black" />
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </UserControl.Resources>
+    <Grid MouseMove="Grid_MouseMove">
+        <Image x:Name="back" Source="/Assets/desk.png" Stretch="Fill" Width="1280" Margin="0,0,0,29"/>
+        <!--<Button Style="{StaticResource MyButtonStyle}" Content="" Margin="127,492,1047,134"  Width="106" Height="94" Click="Button_Click" Foreground="Black" Background="#003B1313"></Button>-->
+        <Button Style="{StaticResource MyButtonStyle}" Content="" Margin="587,624,587,29"  Width="106" Foreground="Black" Background="#003B1313" Click="Button_Click_3"/>
+        <Button Style="{StaticResource MyButtonStyle}" Content="" Margin="335,504,826,136" Foreground="Black" Background="#003B1313" Click="Button_Click_5"/>
+        <Button Style="{StaticResource MyButtonStyle}" Content="" Margin="1018,415,143,225" Foreground="Black" Background="#003B1313" Click="Button_Click_6" />
+        <Button Style="{StaticResource MyButtonStyle}" x:Name="key" BorderBrush="#00843838" Click="Button_Click" Width="128" Height="63" Margin="138,534,1014,123">
+            <Button.Background>
+                <ImageBrush ImageSource="/Assets/key.png" Stretch="Uniform"/>
+            </Button.Background>
+        </Button>
+
+        <Button Style="{StaticResource MyButtonStyle}" x:Name="letter" BorderBrush="#00843838" Width="128" Height="63" Margin="587,597,565,60" Visibility="Hidden" Click="letter_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="/Assets/letter.png" Stretch="Uniform"/>
+            </Button.Background>
+        </Button>
+
+        <StackPanel x:Name="winBox" Margin="358,202,358,82" Background="Black" Opacity="0.9" Visibility="Hidden">
+            <TextBlock Margin="30" Text="You Have Solved The Riddle" FontSize="33" Foreground="White" HorizontalAlignment="Center" FontFamily="../../fonts/#Valium"></TextBlock>
+            <Button Width="400" Height="100" Margin="20" Content="Continue" FontSize="36" Click="Button_Click_2" FontFamily="../../fonts/#Valium"/>
+            <Button Width="400" Height="100" Margin="20" Content="Main Menu" FontSize="36" Background="#FFE1E1E1" Click="Button_Click_1" FontFamily="../../fonts/#Valium"/>
+        </StackPanel>
+
+        <Path x:Name="flash" Fill="Black" Visibility="Visible">
+            <Path.Data>
+                <CombinedGeometry GeometryCombineMode="Exclude">
+                    <CombinedGeometry.Geometry1>
+                        <RectangleGeometry Rect="0,0,10000,10000"/>
+                    </CombinedGeometry.Geometry1>
+                    <CombinedGeometry.Geometry2>
+                        <EllipseGeometry x:Name="circle" RadiusX="100" RadiusY="100"/>
+                    </CombinedGeometry.Geometry2>
+                </CombinedGeometry>
+            </Path.Data>
+        </Path>
+        <StackPanel x:Name="inv" Margin="358,134,358,150" Background="#1A1A1A" Opacity="0.9" Visibility="Hidden" >
+            <TextBlock Margin="30" Text="Inventory" FontSize="72" Foreground="White" HorizontalAlignment="Center" FontFamily="../../fonts/#Valium" FontWeight="Bold" TextDecorations="{x:Null}"></TextBlock>
+            <TextBlock x:Name="items" TextWrapping="Wrap" Text="No Items" Margin="25,0,256,0" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="48" Width="283" Background="Transparent" Foreground="White" Height="267" FontFamily="../../fonts/#Valium"/>
+        </StackPanel>
+        
+        <StackPanel x:Name="rid" Margin="358,134,358,150" Background="#1A1A1A" Opacity="0.9" Visibility="Hidden" >
+            <TextBlock Margin="30" Text="Riddle" FontSize="72" Foreground="White" HorizontalAlignment="Center" FontFamily="../../fonts/#Valium" FontWeight="Bold" TextDecorations="{x:Null}"></TextBlock>
+            <TextBlock x:Name="riddle" TextWrapping="Wrap" Text="The answer is the key to it all" Margin="25,25,10,0" HorizontalAlignment="Center" FontSize="48" Width="529" Background="Transparent" Foreground="White" Height="214" FontFamily="../../fonts/#Valium" TextAlignment="Center"/>
+        </StackPanel>
+        <Button Content="riddle" HorizontalAlignment="Left" Margin="1175,616,0,0" VerticalAlignment="Top" Width="95" Height="36" RenderTransformOrigin="0.897,-0.114" FontFamily="../../fonts/#Valium"  BorderBrush="#ffffff" BorderThickness="2" Foreground="White" Background="#1A1A1A" Click="Button_Click_7"/>
+        <Button Content="Inventory" HorizontalAlignment="Left" Margin="1175,562,0,0" VerticalAlignment="Top" Width="95" Height="36" Click="Button_Click_4" RenderTransformOrigin="0.897,-0.114" FontFamily="../../fonts/#Valium"  BorderBrush="#ffffff" BorderThickness="2" Foreground="White" Background="#1A1A1A"/>
+
+    </Grid>
+
+
+
+</UserControl>

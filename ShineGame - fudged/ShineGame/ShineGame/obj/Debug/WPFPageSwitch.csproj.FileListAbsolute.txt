@@ -1,0 +1,115 @@
+H:\Works\_VR\WPFPageSwitcher\WPFPageSwitch\obj\Debug\JagoanFisika.exe
+H:\Works\_VR\WPFPageSwitcher\WPFPageSwitch\obj\Debug\JagoanFisika.pdb
+H:\Works\_VR\WPFPageSwitcher\WPFPageSwitch\bin\Debug\JagoanFisika.exe
+H:\Works\_VR\WPFPageSwitcher\WPFPageSwitch\bin\Debug\JagoanFisika.pdb
+H:\Works\_VR\WPFPageSwitcher\WPFPageSwitch\obj\Debug\ResolveAssemblyReference.cache
+H:\Works\_VR\WPFPageSwitcher\WPFPageSwitch\obj\Debug\Menu\Gameplay.baml
+H:\Works\_VR\WPFPageSwitcher\WPFPageSwitch\obj\Debug\Menu\LoadGame.baml
+H:\Works\_VR\WPFPageSwitcher\WPFPageSwitch\obj\Debug\Menu\Login.baml
+H:\Works\_VR\WPFPageSwitcher\WPFPageSwitch\obj\Debug\Menu\MainMenu.baml
+H:\Works\_VR\WPFPageSwitcher\WPFPageSwitch\obj\Debug\Menu\Option.baml
+H:\Works\_VR\WPFPageSwitcher\WPFPageSwitch\obj\Debug\Menu\Register.baml
+H:\Works\_VR\WPFPageSwitcher\WPFPageSwitch\obj\Debug\PageSwitcher.baml
+H:\Works\_VR\WPFPageSwitcher\WPFPageSwitch\obj\Debug\Menu\Gameplay.g.cs
+H:\Works\_VR\WPFPageSwitcher\WPFPageSwitch\obj\Debug\Menu\LoadGame.g.cs
+H:\Works\_VR\WPFPageSwitcher\WPFPageSwitch\obj\Debug\Menu\Login.g.cs
+H:\Works\_VR\WPFPageSwitcher\WPFPageSwitch\obj\Debug\Menu\MainMenu.g.cs
+H:\Works\_VR\WPFPageSwitcher\WPFPageSwitch\obj\Debug\Menu\Option.g.cs
+H:\Works\_VR\WPFPageSwitcher\WPFPageSwitch\obj\Debug\Menu\Register.g.cs
+H:\Works\_VR\WPFPageSwitcher\WPFPageSwitch\obj\Debug\PageSwitcher.g.cs
+H:\Works\_VR\WPFPageSwitcher\WPFPageSwitch\obj\Debug\App.g.cs
+H:\Works\_VR\WPFPageSwitcher\WPFPageSwitch\obj\Debug\JagoanFisika_MarkupCompile.cache
+H:\Works\_VR\WPFPageSwitcher\WPFPageSwitch\obj\Debug\JagoanFisika.g.resources
+H:\Works\_VR\WPFPageSwitcher\WPFPageSwitch\obj\Debug\WPFPageSwitch.Properties.Resources.resources
+H:\Works\_VR\WPFPageSwitcher\WPFPageSwitch\obj\Debug\GenerateResource-ResGen.read.1.tlog
+H:\Works\_VR\WPFPageSwitcher\WPFPageSwitch\obj\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Users\Owner\Desktop 4\WPFPageSwitcher\WPFPageSwitch\obj\Debug\JagoanFisika.exe
+C:\Users\Owner\Desktop 4\WPFPageSwitcher\WPFPageSwitch\obj\Debug\JagoanFisika.pdb
+C:\Users\Owner\Desktop 4\WPFPageSwitcher\WPFPageSwitch\bin\Debug\JagoanFisika.exe
+C:\Users\Owner\Desktop 4\WPFPageSwitcher\WPFPageSwitch\bin\Debug\JagoanFisika.pdb
+C:\Users\Owner\Desktop 4\WPFPageSwitcher\WPFPageSwitch\obj\Debug\WPFPageSwitch.csprojResolveAssemblyReference.cache
+C:\Users\Owner\Desktop 4\WPFPageSwitcher\WPFPageSwitch\obj\Debug\Menu\Register.baml
+C:\Users\Owner\Desktop 4\WPFPageSwitcher\WPFPageSwitch\obj\Debug\PageSwitcher.baml
+C:\Users\Owner\Desktop 4\WPFPageSwitcher\WPFPageSwitch\obj\Debug\Menu\Register.g.cs
+C:\Users\Owner\Desktop 4\WPFPageSwitcher\WPFPageSwitch\obj\Debug\PageSwitcher.g.cs
+C:\Users\Owner\Desktop 4\WPFPageSwitcher\WPFPageSwitch\obj\Debug\App.g.cs
+C:\Users\Owner\Desktop 4\WPFPageSwitcher\WPFPageSwitch\obj\Debug\JagoanFisika_MarkupCompile.cache
+C:\Users\Owner\Desktop 4\WPFPageSwitcher\WPFPageSwitch\obj\Debug\JagoanFisika.g.resources
+C:\Users\Owner\Desktop 4\WPFPageSwitcher\WPFPageSwitch\obj\Debug\WPFPageSwitch.Properties.Resources.resources
+C:\Users\Owner\Desktop 4\WPFPageSwitcher\WPFPageSwitch\obj\Debug\WPFPageSwitch.csproj.GenerateResource.Cache
+C:\Users\Owner\Desktop 4\WPFPageSwitcher\WPFPageSwitch\obj\Debug\Menu\LevelSelect.baml
+C:\Users\Owner\Desktop 4\WPFPageSwitcher\WPFPageSwitch\obj\Debug\Menu\Menu.baml
+C:\Users\Owner\Desktop 4\WPFPageSwitcher\WPFPageSwitch\obj\Debug\Menu\Title.baml
+C:\Users\Owner\Desktop 4\WPFPageSwitcher\WPFPageSwitch\obj\Debug\Menu\LevelSelect.g.cs
+C:\Users\Owner\Desktop 4\WPFPageSwitcher\WPFPageSwitch\obj\Debug\Menu\Menu.g.cs
+C:\Users\Owner\Desktop 4\WPFPageSwitcher\WPFPageSwitch\obj\Debug\Menu\Title.g.cs
+C:\Users\Owner\Desktop 4\WPFPageSwitcher\WPFPageSwitch\obj\Debug\JagoanFisika_Content.g.cs
+C:\Users\Owner\Desktop 4\WPFPageSwitcher\WPFPageSwitch\obj\Debug\Menu\Level1.baml
+C:\Users\Owner\Desktop 4\WPFPageSwitcher\WPFPageSwitch\obj\Debug\Menu\Level1.g.cs
+C:\Users\Owner\Desktop 4\WPFPageSwitcher\WPFPageSwitch\obj\Debug\Menu\L1Riddle.baml
+C:\Users\Owner\Desktop 4\WPFPageSwitcher\WPFPageSwitch\obj\Debug\Menu\L1Riddle.g.cs
+C:\Users\Owner\Desktop 4\WPFPageSwitcher\WPFPageSwitch\bin\Debug\sky.jpg
+C:\Users\Owner\Desktop 4\WPFPageSwitcher\WPFPageSwitch\bin\Debug\castle.png
+C:\Users\Owner\Desktop 4\WPFPageSwitcher\WPFPageSwitch\bin\Debug\treasure.png
+C:\Users\Owner\Desktop 4\WPFPageSwitcher\WPFPageSwitch\bin\Debug\mountains.png
+C:\Users\Owner\Desktop 4\WPFPageSwitcher\WPFPageSwitch\bin\Debug\forest.png
+J:\WPFPageSwitcher\WPFPageSwitch\obj\Debug\JagoanFisika.exe
+J:\WPFPageSwitcher\WPFPageSwitch\obj\Debug\JagoanFisika.pdb
+J:\WPFPageSwitcher\WPFPageSwitch\bin\Debug\sky.jpg
+J:\WPFPageSwitcher\WPFPageSwitch\bin\Debug\castle.png
+J:\WPFPageSwitcher\WPFPageSwitch\bin\Debug\treasure.png
+J:\WPFPageSwitcher\WPFPageSwitch\bin\Debug\mountains.png
+J:\WPFPageSwitcher\WPFPageSwitch\bin\Debug\forest.png
+J:\WPFPageSwitcher\WPFPageSwitch\bin\Debug\JagoanFisika.exe
+J:\WPFPageSwitcher\WPFPageSwitch\bin\Debug\JagoanFisika.pdb
+J:\WPFPageSwitcher\WPFPageSwitch\obj\Debug\WPFPageSwitch.csprojResolveAssemblyReference.cache
+J:\WPFPageSwitcher\WPFPageSwitch\obj\Debug\Menu\L1Riddle.baml
+J:\WPFPageSwitcher\WPFPageSwitch\obj\Debug\Menu\Level1.baml
+J:\WPFPageSwitcher\WPFPageSwitch\obj\Debug\Menu\LevelSelect.baml
+J:\WPFPageSwitcher\WPFPageSwitch\obj\Debug\Menu\Menu.baml
+J:\WPFPageSwitcher\WPFPageSwitch\obj\Debug\Menu\Register.baml
+J:\WPFPageSwitcher\WPFPageSwitch\obj\Debug\Menu\Title.baml
+J:\WPFPageSwitcher\WPFPageSwitch\obj\Debug\PageSwitcher.baml
+J:\WPFPageSwitcher\WPFPageSwitch\obj\Debug\Menu\L1Riddle.g.cs
+J:\WPFPageSwitcher\WPFPageSwitch\obj\Debug\Menu\Level1.g.cs
+J:\WPFPageSwitcher\WPFPageSwitch\obj\Debug\Menu\LevelSelect.g.cs
+J:\WPFPageSwitcher\WPFPageSwitch\obj\Debug\Menu\Menu.g.cs
+J:\WPFPageSwitcher\WPFPageSwitch\obj\Debug\Menu\Register.g.cs
+J:\WPFPageSwitcher\WPFPageSwitch\obj\Debug\Menu\Title.g.cs
+J:\WPFPageSwitcher\WPFPageSwitch\obj\Debug\PageSwitcher.g.cs
+J:\WPFPageSwitcher\WPFPageSwitch\obj\Debug\App.g.cs
+J:\WPFPageSwitcher\WPFPageSwitch\obj\Debug\JagoanFisika_Content.g.cs
+J:\WPFPageSwitcher\WPFPageSwitch\obj\Debug\JagoanFisika_MarkupCompile.cache
+J:\WPFPageSwitcher\WPFPageSwitch\obj\Debug\JagoanFisika.g.resources
+J:\WPFPageSwitcher\WPFPageSwitch\obj\Debug\WPFPageSwitch.Properties.Resources.resources
+J:\WPFPageSwitcher\WPFPageSwitch\obj\Debug\WPFPageSwitch.csproj.GenerateResource.Cache
+D:\WPFPageSwitcher\WPFPageSwitch\obj\Debug\JagoanFisika.exe
+D:\WPFPageSwitcher\WPFPageSwitch\obj\Debug\JagoanFisika.pdb
+D:\WPFPageSwitcher\WPFPageSwitch\bin\Debug\sky.jpg
+D:\WPFPageSwitcher\WPFPageSwitch\bin\Debug\castle.png
+D:\WPFPageSwitcher\WPFPageSwitch\bin\Debug\treasure.png
+D:\WPFPageSwitcher\WPFPageSwitch\bin\Debug\mountains.png
+D:\WPFPageSwitcher\WPFPageSwitch\bin\Debug\forest.png
+D:\WPFPageSwitcher\WPFPageSwitch\bin\Debug\JagoanFisika.exe
+D:\WPFPageSwitcher\WPFPageSwitch\bin\Debug\JagoanFisika.pdb
+D:\WPFPageSwitcher\WPFPageSwitch\obj\Debug\WPFPageSwitch.csprojResolveAssemblyReference.cache
+D:\WPFPageSwitcher\WPFPageSwitch\obj\Debug\Menu\L1Riddle.baml
+D:\WPFPageSwitcher\WPFPageSwitch\obj\Debug\Menu\Level1.baml
+D:\WPFPageSwitcher\WPFPageSwitch\obj\Debug\Menu\LevelSelect.baml
+D:\WPFPageSwitcher\WPFPageSwitch\obj\Debug\Menu\Menu.baml
+D:\WPFPageSwitcher\WPFPageSwitch\obj\Debug\Menu\Title.baml
+D:\WPFPageSwitcher\WPFPageSwitch\obj\Debug\PageSwitcher.baml
+D:\WPFPageSwitcher\WPFPageSwitch\obj\Debug\Menu\L1Riddle.g.cs
+D:\WPFPageSwitcher\WPFPageSwitch\obj\Debug\Menu\Level1.g.cs
+D:\WPFPageSwitcher\WPFPageSwitch\obj\Debug\Menu\LevelSelect.g.cs
+D:\WPFPageSwitcher\WPFPageSwitch\obj\Debug\Menu\Menu.g.cs
+D:\WPFPageSwitcher\WPFPageSwitch\obj\Debug\Menu\Title.g.cs
+D:\WPFPageSwitcher\WPFPageSwitch\obj\Debug\PageSwitcher.g.cs
+D:\WPFPageSwitcher\WPFPageSwitch\obj\Debug\App.g.cs
+D:\WPFPageSwitcher\WPFPageSwitch\obj\Debug\JagoanFisika_Content.g.cs
+D:\WPFPageSwitcher\WPFPageSwitch\obj\Debug\JagoanFisika_MarkupCompile.cache
+D:\WPFPageSwitcher\WPFPageSwitch\obj\Debug\JagoanFisika.g.resources
+D:\WPFPageSwitcher\WPFPageSwitch\obj\Debug\WPFPageSwitch.Properties.Resources.resources
+D:\WPFPageSwitcher\WPFPageSwitch\obj\Debug\WPFPageSwitch.csproj.GenerateResource.Cache
+C:\Users\Lkvideorang\Desktop\WPFPageSwitcher\WPFPageSwitch\obj\Debug\JagoanFisika.exe
+C:\Users\Lkvideorang\Desktop\WPFPageSwitcher\WPFPageSwitch\obj\Debug\JagoanFisika.pdb
