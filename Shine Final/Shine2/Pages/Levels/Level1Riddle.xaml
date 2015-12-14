@@ -4,7 +4,7 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              mc:Ignorable="d" 
-            d:DesignHeight="720" d:DesignWidth="1280" Background="#1A1A1A"
+            d:DesignHeight="720" d:DesignWidth="1280" Background="#1A1A1A">
     <Grid>
         <TextBlock x:Name="top" HorizontalAlignment="Center" Margin="0,50,0,0" TextWrapping="Wrap" Text="Riddle" VerticalAlignment="Top" Foreground="White" FontSize="72" FontFamily="../../fonts/#Valium" TextAlignment="Center"/>
         <TextBlock x:Name="bottom" HorizontalAlignment="Center" Margin="0,400,0,0" TextWrapping="Wrap" Text="Find a friend, alone and dark. The door to where the riddles marked" VerticalAlignment="Center" Foreground="White" FontSize="72" FontFamily="../../fonts/#Valium" Width="942" TextAlignment="Center" Height="290"/>
