@@ -34,9 +34,9 @@
     <Grid MouseMove="Grid_MouseMove">
         <Image x:Name="back" Source="/Assets/desk.png" Stretch="Fill" Width="1280" Margin="0,0,0,29"/>
         <!--<Button Style="{StaticResource MyButtonStyle}" Content="" Margin="127,492,1047,134"  Width="106" Height="94" Click="Button_Click" Foreground="Black" Background="#003B1313"></Button>-->
-        <Button Style="{StaticResource MyButtonStyle}" Content="" Margin="587,624,587,29"  Width="106" Foreground="Black" Background="#003B1313" Click="Button_Click_3"/>
+        <Button Style="{StaticResource MyButtonStyle}" Content="" Margin="587,606,587,47"  Width="106" Foreground="Black" Background="#003B1313" Click="Button_Click_3"/>
         <Button Style="{StaticResource MyButtonStyle}" Content="" Margin="335,504,826,136" Foreground="Black" Background="#003B1313" Click="Button_Click_5"/>
-        <Button Style="{StaticResource MyButtonStyle}" Content="" Margin="1018,415,143,225" Foreground="Black" Background="#003B1313" Click="Button_Click_6" />
+        <Button Style="{StaticResource MyButtonStyle}" Content="" Margin="1024,407,137,233" Foreground="Black" Background="#003B1313" Click="Button_Click_6" />
         <Button Style="{StaticResource MyButtonStyle}" x:Name="key" BorderBrush="#00843838" Click="Button_Click" Width="128" Height="63" Margin="138,534,1014,123">
             <Button.Background>
                 <ImageBrush ImageSource="/Assets/key.png" Stretch="Uniform"/>
@@ -67,6 +67,7 @@
                 </CombinedGeometry>
             </Path.Data>
         </Path>
+        
         <StackPanel x:Name="inv" Margin="358,134,358,150" Background="#1A1A1A" Opacity="0.9" Visibility="Hidden" >
             <TextBlock Margin="30" Text="Inventory" FontSize="72" Foreground="White" HorizontalAlignment="Center" FontFamily="../../fonts/#Valium" FontWeight="Bold" TextDecorations="{x:Null}"></TextBlock>
             <TextBlock x:Name="items" TextWrapping="Wrap" Text="No Items" Margin="25,0,256,0" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="48" Width="283" Background="Transparent" Foreground="White" Height="267" FontFamily="../../fonts/#Valium"/>

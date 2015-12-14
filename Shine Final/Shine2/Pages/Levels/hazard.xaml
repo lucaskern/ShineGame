@@ -6,7 +6,7 @@
              mc:Ignorable="d" 
              d:DesignHeight="720" d:DesignWidth="1280">
     <Grid Background="#FF44BEDF" MouseMove="Grid_MouseMove">
-        <Image x:Name="guy" HorizontalAlignment="Left" Height="134" Margin="737,193,0,0" VerticalAlignment="Top" Width="134" Source="../../Assets/happy.png" MouseEnter="Image_MouseEnter" MouseLeave="guy_MouseLeave"/>
+        <Image x:Name="guy" HorizontalAlignment="Left" Height="71" Margin="737,193,0,0" VerticalAlignment="Top" Width="71" Source="../../Assets/happy.png" MouseEnter="Image_MouseEnter" MouseLeave="guy_MouseLeave"/>
         <Path x:Name="flash" Fill="Black" Visibility="Visible">
             <Path.Data>
                 <CombinedGeometry GeometryCombineMode="Exclude">

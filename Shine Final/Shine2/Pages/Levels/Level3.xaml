@@ -33,7 +33,7 @@
     </UserControl.Resources>
     <Grid>
         <Image Source="/Assets/screen2.png" Width="1280" Stretch="Fill"/>
-        <Button Style="{StaticResource MyButtonStyle}" Content="" Margin="368,435,806,191"  Width="106" Height="94" Foreground="Black" Background="#003B1313" Click="Button_Click"></Button>
+        <Button Style="{StaticResource MyButtonStyle}" Content="" Margin="336,434,775,188" Foreground="Black" Background="#003B1313" Click="Button_Click"/>
 
         <StackPanel x:Name="winBox" Margin="358,202,358,82" Background="Black" Opacity="0.9" Visibility="Hidden">
             <TextBlock Margin="30" Text="You Have Solved The Riddle" FontSize="33" Foreground="White" HorizontalAlignment="Center" FontFamily="../../fonts/#Valium"></TextBlock>

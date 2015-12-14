@@ -52,8 +52,11 @@ namespace Shine2.Pages.Levels
         {
             open.Visibility = System.Windows.Visibility.Visible;
 
-            t1.Interval = TimeSpan.FromSeconds(2.0);
+            t1.Interval = TimeSpan.FromSeconds(1.5);
             t1.Start();
+
+            m1.Open(new Uri(@"../../Assets/Sound/door.m4a", UriKind.Relative));
+            m1.Play();
 
             t1.Tick += Timer_Tick;
 

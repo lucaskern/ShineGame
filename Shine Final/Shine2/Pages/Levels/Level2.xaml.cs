@@ -125,7 +125,7 @@ namespace Shine2.Pages.Levels
             circle.Center = e.GetPosition((IInputElement)sender);
         }
 
-        //clock button
+        
         private void Button_Click_5(object sender, RoutedEventArgs e)
         {
             media.Open(new Uri(@"../../Assets/Sound/clock.m4a", UriKind.Relative));
