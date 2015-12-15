@@ -207,6 +207,9 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
+    <Content Include="Assets\Sound\door.m4a" />
+    <Content Include="Assets\Sound\safeClick2.m4a" />
+    <Content Include="Assets\Sound\unlock.m4a" />
     <Resource Include="shineIcon2.ico" />
     <Resource Include="shineIcon.ico" />
     <Resource Include="Assets\screen2.png" />
@@ -238,6 +241,7 @@
     <Content Include="Assets\Sound\lighter.m4a" />
     <Content Include="Assets\Sound\mad.m4a" />
     <Content Include="Assets\Sound\riddle.m4a" />
+    <Content Include="Assets\Sound\safeClick.m4a" />
     <Content Include="Assets\Sound\snore.m4a" />
     <Content Include="Assets\Sound\solved.m4a" />
     <Content Include="Assets\Sound\solved2.m4a" />

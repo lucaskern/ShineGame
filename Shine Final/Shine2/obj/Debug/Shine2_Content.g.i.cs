@@ -8,6 +8,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/sound/door.m4a")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/sound/safeclick2.m4a")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/sound/unlock.m4a")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/sound/alert.m4a")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/sound/ambiance.m4a")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/sound/ambiance2.m4a")]
@@ -20,6 +23,7 @@
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/sound/lighter.m4a")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/sound/mad.m4a")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/sound/riddle.m4a")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/sound/safeclick.m4a")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/sound/snore.m4a")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/sound/solved.m4a")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/sound/solved2.m4a")]

@@ -23,6 +23,8 @@ namespace Shine2.Pages.Levels
         //timer to make space for safe unlock sound
         DispatcherTimer t1 = new DispatcherTimer();
 
+        MediaPlayer media = new MediaPlayer();
+
         //combo is three numbers
         int[] combo = new int[3];
         //sets start values of numbers
@@ -38,7 +40,7 @@ namespace Shine2.Pages.Levels
         
         public Safe()
         {
-            t1.Interval = TimeSpan.FromSeconds(1.5);
+            t1.Interval = TimeSpan.FromSeconds(2);
 
             InitializeComponent();
             //set the correct combo
@@ -50,6 +52,12 @@ namespace Shine2.Pages.Levels
             left.Text = leftNumString;
             center.Text = centerNumString;
             right.Text = rightNumString;
+        }
+
+        //loops audio
+        private void media_Ended(object sender, EventArgs e)
+        {
+            media.Close();
         }
 
         //left Up
@@ -73,6 +81,11 @@ namespace Shine2.Pages.Levels
 
             }
 
+            //play click
+            media.Open(new Uri(@"../../Assets/Sound/safeClick.m4a", UriKind.Relative));
+            media.Play();
+            media.MediaEnded += new EventHandler(media_Ended);
+            
         }
 
         //left Down
@@ -95,6 +108,11 @@ namespace Shine2.Pages.Levels
             {
 
             }
+
+            //play click
+            media.Open(new Uri(@"../../Assets/Sound/safeClick.m4a", UriKind.Relative));
+            media.Play();
+            media.MediaEnded += new EventHandler(media_Ended);
         }
 
         //center Up
@@ -115,6 +133,11 @@ namespace Shine2.Pages.Levels
                 center.Text = centerNumString;
             }
             else { }
+
+            //play click
+            media.Open(new Uri(@"../../Assets/Sound/safeClick.m4a", UriKind.Relative));
+            media.Play();
+            media.MediaEnded += new EventHandler(media_Ended);
         }
 
         //center Down
@@ -135,6 +158,11 @@ namespace Shine2.Pages.Levels
                 center.Text = centerNumString;
             }
             else { }
+
+            //play click
+            media.Open(new Uri(@"../../Assets/Sound/safeClick.m4a", UriKind.Relative));
+            media.Play();
+            media.MediaEnded += new EventHandler(media_Ended);
         }
 
         //right Up
@@ -155,6 +183,11 @@ namespace Shine2.Pages.Levels
                 right.Text = rightNumString;
             }
             else { }
+
+            //play click
+            media.Open(new Uri(@"../../Assets/Sound/safeClick.m4a", UriKind.Relative));
+            media.Play();
+            media.MediaEnded += new EventHandler(media_Ended);
         }
 
         //right Down
@@ -175,6 +208,11 @@ namespace Shine2.Pages.Levels
                 right.Text = rightNumString;
             }
             else { }
+
+            //play click
+            media.Open(new Uri(@"../../Assets/Sound/safeClick.m4a", UriKind.Relative));
+            media.Play();
+            media.MediaEnded += new EventHandler(media_Ended);
         }
 
         //check combo
@@ -184,6 +222,10 @@ namespace Shine2.Pages.Levels
             {
                 t1.Start();
                 t1.Tick += Timer_Tick;
+
+                //play click
+                media.Open(new Uri(@"../../Assets/Sound/unlock.m4a", UriKind.Relative));
+                media.Play();
 
                
             } else if (Check() == "incorrect")
@@ -207,6 +249,7 @@ namespace Shine2.Pages.Levels
                 isSolved.Foreground = new SolidColorBrush(Colors.Green);
                 isSolved.Text = "Correct";
                 return "correct";
+                
             }
             else
             {

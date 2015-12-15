@@ -39,6 +39,14 @@ namespace Shine2.Pages.Levels
             //play ambience sound
             m1.Open(new Uri(@"../../Assets/Sound/ambiance2.m4a", UriKind.Relative));
             m1.Play();
+            m1.MediaEnded += new EventHandler(media_Ended);
+        }
+
+        //loops audio
+        private void media_Ended(object sender, EventArgs e)
+        {
+            m1.Position = TimeSpan.FromSeconds(0);
+            m1.Play();
         }
 
         //Click key, add to inv and make hidden
