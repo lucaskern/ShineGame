@@ -245,3 +245,47 @@ C:\Users\Lkvideorang\Desktop\I3Project\ShineGame\Shine Final\Shine2\obj\Debug\Sh
 C:\Users\Lkvideorang\Desktop\I3Project\ShineGame\Shine Final\Shine2\obj\Debug\Shine2.g.resources
 C:\Users\Lkvideorang\Desktop\I3Project\ShineGame\Shine Final\Shine2\obj\Debug\Shine2.Properties.Resources.resources
 C:\Users\Lkvideorang\Desktop\I3Project\ShineGame\Shine Final\Shine2\obj\Debug\Shine2.csproj.GenerateResource.Cache
+C:\Users\Owner\Desktop 4\Shine\IDAPS3\ShineGame\Shine Final\Shine2\bin\Debug\Shine2.exe.config
+C:\Users\Owner\Desktop 4\Shine\IDAPS3\ShineGame\Shine Final\Shine2\obj\Debug\Shine2.exe
+C:\Users\Owner\Desktop 4\Shine\IDAPS3\ShineGame\Shine Final\Shine2\obj\Debug\Shine2.pdb
+C:\Users\Owner\Desktop 4\Shine\IDAPS3\ShineGame\Shine Final\Shine2\bin\Debug\Shine2.exe
+C:\Users\Owner\Desktop 4\Shine\IDAPS3\ShineGame\Shine Final\Shine2\bin\Debug\Shine2.pdb
+C:\Users\Owner\Desktop 4\Shine\IDAPS3\ShineGame\Shine Final\Shine2\obj\Debug\Shine2.csprojResolveAssemblyReference.cache
+C:\Users\Owner\Desktop 4\Shine\IDAPS3\ShineGame\Shine Final\Shine2\obj\Debug\Pages\Levels\hazard.baml
+C:\Users\Owner\Desktop 4\Shine\IDAPS3\ShineGame\Shine Final\Shine2\obj\Debug\Pages\Levels\Level4.baml
+C:\Users\Owner\Desktop 4\Shine\IDAPS3\ShineGame\Shine Final\Shine2\obj\Debug\Pages\Levels\Level4Riddle.baml
+C:\Users\Owner\Desktop 4\Shine\IDAPS3\ShineGame\Shine Final\Shine2\obj\Debug\Pages\Intro.baml
+C:\Users\Owner\Desktop 4\Shine\IDAPS3\ShineGame\Shine Final\Shine2\obj\Debug\Pages\Levels\Level2.baml
+C:\Users\Owner\Desktop 4\Shine\IDAPS3\ShineGame\Shine Final\Shine2\obj\Debug\MainWindow.baml
+C:\Users\Owner\Desktop 4\Shine\IDAPS3\ShineGame\Shine Final\Shine2\obj\Debug\Pages\LevelSelect.baml
+C:\Users\Owner\Desktop 4\Shine\IDAPS3\ShineGame\Shine Final\Shine2\obj\Debug\Pages\Levels\Level2Riddle.baml
+C:\Users\Owner\Desktop 4\Shine\IDAPS3\ShineGame\Shine Final\Shine2\obj\Debug\Pages\Levels\Level3.baml
+C:\Users\Owner\Desktop 4\Shine\IDAPS3\ShineGame\Shine Final\Shine2\obj\Debug\Pages\Levels\Level3Riddle.baml
+C:\Users\Owner\Desktop 4\Shine\IDAPS3\ShineGame\Shine Final\Shine2\obj\Debug\Pages\Levels\Level1.baml
+C:\Users\Owner\Desktop 4\Shine\IDAPS3\ShineGame\Shine Final\Shine2\obj\Debug\Pages\Levels\Level1Riddle.baml
+C:\Users\Owner\Desktop 4\Shine\IDAPS3\ShineGame\Shine Final\Shine2\obj\Debug\Pages\Levels\Level5.baml
+C:\Users\Owner\Desktop 4\Shine\IDAPS3\ShineGame\Shine Final\Shine2\obj\Debug\Pages\Levels\Light.baml
+C:\Users\Owner\Desktop 4\Shine\IDAPS3\ShineGame\Shine Final\Shine2\obj\Debug\Pages\Menu.baml
+C:\Users\Owner\Desktop 4\Shine\IDAPS3\ShineGame\Shine Final\Shine2\obj\Debug\Pages\Levels\Safe.baml
+C:\Users\Owner\Desktop 4\Shine\IDAPS3\ShineGame\Shine Final\Shine2\obj\Debug\Pages\Levels\hazard.g.cs
+C:\Users\Owner\Desktop 4\Shine\IDAPS3\ShineGame\Shine Final\Shine2\obj\Debug\Pages\Levels\Level4.g.cs
+C:\Users\Owner\Desktop 4\Shine\IDAPS3\ShineGame\Shine Final\Shine2\obj\Debug\Pages\Levels\Level4Riddle.g.cs
+C:\Users\Owner\Desktop 4\Shine\IDAPS3\ShineGame\Shine Final\Shine2\obj\Debug\Pages\Intro.g.cs
+C:\Users\Owner\Desktop 4\Shine\IDAPS3\ShineGame\Shine Final\Shine2\obj\Debug\Pages\Levels\Level2.g.cs
+C:\Users\Owner\Desktop 4\Shine\IDAPS3\ShineGame\Shine Final\Shine2\obj\Debug\MainWindow.g.cs
+C:\Users\Owner\Desktop 4\Shine\IDAPS3\ShineGame\Shine Final\Shine2\obj\Debug\Pages\LevelSelect.g.cs
+C:\Users\Owner\Desktop 4\Shine\IDAPS3\ShineGame\Shine Final\Shine2\obj\Debug\Pages\Levels\Level2Riddle.g.cs
+C:\Users\Owner\Desktop 4\Shine\IDAPS3\ShineGame\Shine Final\Shine2\obj\Debug\Pages\Levels\Level3.g.cs
+C:\Users\Owner\Desktop 4\Shine\IDAPS3\ShineGame\Shine Final\Shine2\obj\Debug\Pages\Levels\Level3Riddle.g.cs
+C:\Users\Owner\Desktop 4\Shine\IDAPS3\ShineGame\Shine Final\Shine2\obj\Debug\Pages\Levels\Level1.g.cs
+C:\Users\Owner\Desktop 4\Shine\IDAPS3\ShineGame\Shine Final\Shine2\obj\Debug\Pages\Levels\Level1Riddle.g.cs
+C:\Users\Owner\Desktop 4\Shine\IDAPS3\ShineGame\Shine Final\Shine2\obj\Debug\Pages\Levels\Level5.g.cs
+C:\Users\Owner\Desktop 4\Shine\IDAPS3\ShineGame\Shine Final\Shine2\obj\Debug\Pages\Levels\Light.g.cs
+C:\Users\Owner\Desktop 4\Shine\IDAPS3\ShineGame\Shine Final\Shine2\obj\Debug\Pages\Menu.g.cs
+C:\Users\Owner\Desktop 4\Shine\IDAPS3\ShineGame\Shine Final\Shine2\obj\Debug\Pages\Levels\Safe.g.cs
+C:\Users\Owner\Desktop 4\Shine\IDAPS3\ShineGame\Shine Final\Shine2\obj\Debug\App.g.cs
+C:\Users\Owner\Desktop 4\Shine\IDAPS3\ShineGame\Shine Final\Shine2\obj\Debug\Shine2_Content.g.cs
+C:\Users\Owner\Desktop 4\Shine\IDAPS3\ShineGame\Shine Final\Shine2\obj\Debug\Shine2_MarkupCompile.cache
+C:\Users\Owner\Desktop 4\Shine\IDAPS3\ShineGame\Shine Final\Shine2\obj\Debug\Shine2.g.resources
+C:\Users\Owner\Desktop 4\Shine\IDAPS3\ShineGame\Shine Final\Shine2\obj\Debug\Shine2.Properties.Resources.resources
+C:\Users\Owner\Desktop 4\Shine\IDAPS3\ShineGame\Shine Final\Shine2\obj\Debug\Shine2.csproj.GenerateResource.Cache

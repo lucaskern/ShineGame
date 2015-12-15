@@ -40,7 +40,7 @@
             <Button Width="400" Height="100" Margin="20" Content="Continue" FontSize="36" Click="Button_Click_2" FontFamily="../../fonts/#Valium"/>
             <Button Width="400" Height="100" Margin="20" Content="Main Menu" FontSize="36" Background="#FFE1E1E1" Click="Button_Click_1" FontFamily="../../fonts/#Valium"/>
         </StackPanel>
-
+ 
         <StackPanel x:Name="rid" Margin="358,134,358,150" Background="#1A1A1A" Opacity="0.9" Visibility="Hidden" >
             <TextBlock Margin="30" Text="Riddle" FontSize="72" Foreground="White" HorizontalAlignment="Center" FontFamily="../../fonts/#Valium" FontWeight="Bold" TextDecorations="{x:Null}"></TextBlock>
             <TextBlock x:Name="riddle" TextWrapping="Wrap" Text="Im not alive, Im not a place but You must walk the way I face." Margin="25,25,10,0" HorizontalAlignment="Center" FontSize="48" Width="529" Background="Transparent" Foreground="White" Height="214" FontFamily="../../fonts/#Valium" TextAlignment="Center"/>

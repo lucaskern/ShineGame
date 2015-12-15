@@ -7,5 +7,6 @@
              d:DesignHeight="720" d:DesignWidth="1280">
     <Grid Background="#FF070707">
         <Image Source="/Assets/screenFinal.png" Stretch="Fill"></Image>
+        <Button Content="Menu" HorizontalAlignment="Left" Margin="1108,610,0,0" VerticalAlignment="Top" Width="149" Height="56" RenderTransformOrigin="0.897,-0.114" FontFamily="../../fonts/#Valium"  BorderBrush="#ffffff" BorderThickness="2" Foreground="White" Background="#1A1A1A" FontSize="24" Click="Button_Click"/>
     </Grid>
 </UserControl>

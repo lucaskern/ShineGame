@@ -23,5 +23,10 @@ namespace Shine2.Pages.Levels
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            Switcher.Switch(new Menu());
+        }
     }
 }
